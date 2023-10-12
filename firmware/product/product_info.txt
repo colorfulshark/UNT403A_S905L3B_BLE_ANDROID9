@@ -1,0 +1,46 @@
+EXT4 superblock info:
+
+Filesystem volume name:    product
+Last mounted on:           
+Filesystem UUID:           27C5486F-1EFF-4F5C-A8CD-E7B0E760D4A5
+Filesystem magic number:   0xEF53
+Filesystem revision:       1 (v2 format/dynamic inode sizes)
+FS compatible features:    0x00000018 (EXT_ATTR RESIZE_INODE)
+FS incompatible features:  0x00000042 (FILETYPE EXTENTS)
+FS read-only features:     0x00000013 (SPARSE_SUPER LARGE_FILE GDT_CSUM)
+Filesystem flags:          Unsigned directory hash in use
+Default mount options:     0x00000000 (none)
+Filesystem state:          Cleanly umounted
+Errors behavior:           Remount read-only
+Filesystem OS type:        Linux
+Inode count:               8192
+Block count:               32768
+Reserved block count:      0
+Free blocks:               18726
+Free inodes:               8160
+First data block:          0
+Block size:                4096
+Fragment size:             4096
+Reserved GDT blocks:       7
+Blocks per group:          32768
+Fragments per group:       32768
+Inodes per group:          8192
+Inode blocks per group:    512
+Last mount time:           none
+Last write time:           none
+Mount count:               0
+Maximum mount count:       -1
+Last checked:              none
+Check interval:            0
+Reserved blocks uid:       0 (user unknown)
+Reserved blocks gid:       0 (group unknown)
+First inode:               11
+Inode size:                256
+Journal superblock UUID:   00000000-0000-0000-0000-000000000000
+Journal inode:             0
+Journal device number:     0x00000000
+Default directory hash:    Tea.
+Directory Hash Seed:       00000000-0000-0000-0000-000000000000
+Journal inode backup type: 0x01 (EXT3_JNL_BACKUP_BLOCKS)
+
+Output information about the superblock of product.img finish success

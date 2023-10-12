@@ -1,0 +1,7 @@
+############auto del _CTC,_CUCC,_CMCC postfix file#############
+############auto search and replace the _CMCCGUANGDONG dedicated Files#############
+FH_SEARCH_AND_REPLACE=(
+)
+############auto replace _HG680-LY8YT-0K postfix file#############
+FH_SEARCH_AND_REPLACE=(
+)

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cwmp>
+    <model>
+        <object name="Device">
+            <param name="DeviceSummary" get_func="cpe_get_d_devicesummary"/>
+            <param name="DeviceType" get_func="cpe_get_d_devicetype"/>
+            <object name="X_CMCC_Enterprise">
+            		<param name="PortalPassword" get_func="cpe_get_igd_di_portalpassword"/>
+            </object>
+            <object name="X_CMCC_UserInfo">
+            		<param name="Password" get_func="cpe_get_igd_di_userInfo_password"/>
+            </object>
+            <object name="Services">
+                <object name="VoiceService">
+                    <object name="{i}">
+                        <object name="VoiceProfile">
+                        <object name="{i}">
+                            <object name="SIP">
+                                <param name="AuthUserName" get_func="" cpe_name="sip:username" set_func="cpe_set_d_s_voiceServer_prof_SIP_username"/>
+                                <param name="AuthPassword" get_func="" cpe_name="sip:password" set_func="cpe_set_d_s_voiceServer_prof_SIP_pswd"/>
+                            </object>
+                        </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object name="DeviceInfo">
+                <param name="Manufacturer" get_func="cpe_get_igd_di_manufacturer"/>
+                <param name="ManufacturerOUI" get_func="cpe_get_igd_di_manufactureroui"/>
+                <param name="HardwareVersion" get_func="cpe_get_igd_di_hardwareversion"/>
+                <param name="SoftwareVersion" get_func="cpe_get_igd_di_softwareversion"/>
+                <param name="AdditionalHardwareVersion" get_func="cpe_get_d_di_additionalhardwareversion"/>
+                <param name="AdditionalSoftwareVersion" get_func="cpe_get_d_di_additionalsoftwareversion"/>
+                <param name="ModelName" get_func="cpe_get_d_di_modelname"/>
+                <param name="ModelID" get_func="cpe_get_d_di_modelid"/>
+                <param name="Description" get_func="cpe_get_d_di_description"/>
+                <param name="ProductClass" get_func="cpe_get_igd_di_productclass"/>
+                <param name="SerialNumber" get_func="cpe_get_igd_di_serialnumber"/>
+                <param name="ConfigVersion" get_func="cpe_get_igd_di_configversion"/>
+                <param name="EnabledOptions" get_func="cpe_get_igd_di_enabledoptions"/>
+                <param name="ProvisioningCode" rw="1" get_func="cpe_get_igd_di_provisioningcode" set_func="cpe_set_igd_di_provisioningcode"/>
+                <param name="DeviceStatus" get_func="cpe_get_igd_di_devicestatus"/>
+                <param name="UpTime" get_func="cpe_get_d_di_uptime"/>
+                <param name="FirstUseDate" get_func="cpe_get_d_di_firstusedate"/>
+                <param name="DeviceLog" get_func="cpe_get_d_di_devicelog"/>
+            </object>
+            <object name="ManagementServer">
+                <param name="ConnectionRequestURL" get_func="cpe_get_igd_ms_connectionrequesturl"/>
+                <param name="ConnectionRequestUsername" rw="1" noti_rw="1" get_func="cpe_get_igd_ms_connectionrequestusername" set_func="cpe_set_igd_ms_connectionrequestusername"/>
+                <param name="ConnectionRequestPassword" rw="1" noti_rw="1" get_func="cpe_get_igd_ms_connectionrequestpassword" set_func="cpe_set_igd_ms_connectionrequestpassword"/>
+                <param name="Username" rw="1" noti_rw="1" get_func="cpe_get_igd_ms_username" set_func="cpe_set_igd_ms_username"/>
+                <param name="Password" rw="1" noti_rw="1" get_func="cpe_get_igd_ms_password" set_func="cpe_set_igd_ms_password"/>
+                <param name="URL" noti_rw="1" rw="1" get_func="cpe_get_igd_ms_url" set_func="cpe_set_igd_ms_url"/>
+                <param name="URLBackup" noti_rw="1" rw="1" get_func="cpe_get_igd_ms_urlbackup" set_func="cpe_set_igd_ms_urlbackup"/>
+                <param name="UpgradesManaged" rw="1" noti_rw="1" type="s" get_func="cpe_get_d_ms_upgradesmanaged" set_func="cpe_set_d_ms_upgradesmanaged"/>
+                <param name="DownloadProgressURL" get_func="cpe_get_igd_ms_urldldpsg"/>
+                <param name="PeriodicInformEnable" rw="1" noti_rw="1" type="s" get_func="cpe_get_d_ms_periodicinformenable" set_func="cpe_set_d_ms_periodicinformenable"/>
+                <param name="PeriodicInformInterval" rw="1" noti_rw="1" get_func="cpe_get_d_ms_periodicinforminterval" set_func="cpe_set_d_ms_periodicinforminterval"/>
+                <param name="PeriodicInformTime" rw="1" type="s" get_func="cpe_get_d_ms_periodicinformtime" set_func="cpe_set_d_ms_periodicinformtime"/>
+                <param name="ParameterKey" get_func="cpe_get_d_ms_parameterkey" set_func=""/>
+                <param name="UDPConnectionRequestAddress" get_func="cpe_get_d_ms_udpconnectionrequestaddress" set_func=""/>
+                <param name="UDPConnectionRequestAddressNotificationLimit" get_func="cpe_get_d_ms_udpranl" set_func="cpe_set_d_ms_udpranl"/>
+                <param name="STUNEnable" rw="1" type="s" get_func="cpe_get_d_ms_stunenable" set_func="cpe_set_d_ms_stunenable"/>
+                <param name="STUNServerAddress" rw="1" get_func="cpe_get_d_ms_stunserveraddress" set_func="cpe_set_d_ms_stunserveraddress"/>
+                <param name="STUNServerPort" rw="1" get_func="cpe_get_d_ms_stunserverport" set_func="cpe_set_d_ms_stunserverport"/>
+                <param name="STUNUsername" rw="1" get_func="cpe_get_d_ms_stunusername" set_func="cpe_set_d_ms_stunusername"/>
+                <param name="STUNPassword" rw="1" get_func="cpe_get_d_ms_stunpassword" set_func="cpe_set_d_ms_stunpassword"/>
+                <param name="STUNMaximumKeepAlivePeriod" rw="1" type="s" get_func="cpe_get_d_ms_stunmaximumkeepaliveperiod" set_func="cpe_set_d_ms_stunmaximumkeepaliveperiod"/>
+                <param name="STUNMinimumKeepAlivePeriod" rw="1" type="s" get_func="cpe_get_d_ms_stunminimumkeepaliveperiod" set_func="cpe_set_d_ms_stunminimumkeepaliveperiod"/>
+                <param name="NATDetected" type="s" get_func="cpe_get_d_ms_natdetected" set_func=""/>
+                <param name="URLModifyFlag" get_func="cpe_get_d_ms_urlmodifyflag" set_func="cpe_set_d_ms_urlmodifyflag"/>
+                <param name="KickURL" get_func="cpe_get_d_ms_kickurl"/>
+            </object>
+            <object name="Config">
+                <param name="PersistentData" rw="1" get_func="cpe_get_c_persistentdata" set_func="cpe_set_c_persistentdata"/>
+                <param name="ConfigFile" rw="1" get_func="cpe_get_c_configfile" set_func="cpe_set_c_configfile"/>
+            </object>
+            <object name="Time">
+                <param name="NTPServer1" rw="1" type="s" get_func="cpe_get_d_t_ntpserver1" set_func="cpe_set_d_t_ntpserver1"/>
+                <param name="NTPServer2" rw="1" type="s" get_func="cpe_get_d_t_ntpserver2" set_func="cpe_set_d_t_ntpserver2"/>
+                <param name="CurrentLocalTime" rw="1" get_func="cpe_get_d_t_currtime" set_func="cpe_set_d_t_currtime"/>
+                <param name="LocalTimeZone" rw="1" get_func="cpe_get_d_t_timezone" set_func="cpe_set_d_t_timezone"/>
+            </object>
+            <object name="UserInterface">
+                <param name="AvailableLanguages" get_func="cpe_get_d_uf_avalanguages"/>
+                <param name="CurrentLanguage"  rw="1" get_func="cpe_get_d_uf_curlanguages" set_func="cpe_set_d_uf_curlanguages"/>
+            </object>
+            <object name="LAN">
+                <param name="AddressingType" rw="1" get_func="cpe_get_d_lan_addressingtype" set_func="cpe_set_d_lan_addressingtype"/>
+                <param name="DNSServers" rw="1" get_func="cpe_get_d_lan_dnsserver" set_func="cpe_set_d_lan_dnsserver"/>
+                <param name="DefaultGateway" rw="1" get_func="cpe_get_d_lan_defgateway" set_func="cpe_set_d_lan_defgateway"/>
+                <param name="MACAddress" get_func="cpe_get_d_lan_macaddress"/>
+                <param name="MACAddressOverride" rw="1" get_func="cpe_get_d_lan_macoverride" set_func="cpe_set_d_lan_macoverride"/>
+                <param name="IPAddress" rw="1" get_func="cpe_get_d_lan_ipaddress"  set_func="cpe_set_d_lan_ipaddress"/>
+                <param name="SubnetMask" rw="1" get_func="cpe_get_d_lan_netmask" set_func="cpe_set_d_lan_netmask"/>
+                <param name="IsSupportIPV6" get_func="cpe_get_d_lan_supportipv6"/>
+                <object name="IPPingDiagnostics">
+                    <param name="DiagnosticsState" rw="1" get_func="cpe_get_d_lan_ping_DiagnosticsState" set_func="cpe_set_d_lan_ping_DiagnosticsState"/>
+                    <param name="Host" rw="1" get_func="cpe_get_d_lan_ping_Host" set_func="cpe_set_d_lan_ping_Host"/>
+                    <param name="NumberOfRepetitions" rw="1" get_func="cpe_get_d_lan_ping_NumberOfRepetitions" set_func="cpe_set_d_lan_ping_NumberOfRepetitions"/>
+                    <param name="Timeout" rw="1" get_func="cpe_get_d_lan_ping_Timeout" set_func="cpe_set_d_lan_ping_Timeout"/>
+                    <param name="DataBlockSize" rw="1" get_func="cpe_get_d_lan_ping_DataBlockSize" set_func="cpe_set_d_lan_ping_DataBlockSize"/>
+                    <param name="DSCP" rw="1" get_func="cpe_get_d_lan_ping_DSCP" set_func="cpe_set_d_lan_ping_DSCP"/>
+                    <param name="SuccessCount" get_func="cpe_get_d_lan_ping_SuccessCount"/>
+                    <param name="FailureCount" get_func="cpe_get_d_lan_ping_FailureCount"/>
+                    <param name="AverageResponseTime" get_func="cpe_get_d_lan_ping_AverageResponseTime"/>
+                    <param name="MinimumResponseTime" get_func="cpe_get_d_lan_ping_MinimumResponseTime"/>
+                    <param name="MaximumResponseTime" get_func="cpe_get_d_lan_ping_MaximumResponseTime"/>
+                </object>
+                <object name="TraceRouteDiagnostics">
+                    <param name="DiagnosticsState" rw="1" get_func="cpe_get_d_lan_TR_DiagnosticsState" set_func="cpe_set_d_lan_TR_DiagnosticsState"/>
+                    <param name="Host" rw="1" get_func="cpe_get_d_lan_TR_Host" set_func="cpe_set_d_lan_TR_Host"/>
+                    <param name="MaxHopCount" rw="1" get_func="cpe_get_d_lan_TR_MaxHopCount" set_func="cpe_set_d_lan_TR_MaxHopCount"/>
+                    <param name="Timeout" rw="1" get_func="cpe_get_d_lan_TR_Timeout" set_func="cpe_set_d_lan_TR_Timeout"/>
+                    <param name="DataBlockSize" rw="1" get_func="cpe_get_d_lan_TR_DataBlockSize" set_func="cpe_set_d_lan_TR_DataBlockSize"/>
+                    <param name="DSCP" rw="1" get_func="cpe_get_d_lan_TR_DSCP" set_func="cpe_set_d_lan_TR_DSCP"/>
+                    <param name="ResponseTime" rw="0" get_func="cpe_get_d_lan_TR_ResponseTime" set_func=""/>
+                    <param name="NumberOfRouteHops" rw="0" get_func="cpe_get_d_lan_TR_NumberOfRouteHops" set_func=""/>
+                    <object name="RouteHops" rw="1" refresh_func="cpe_refresh_igd_TraceRouteDiagnostics_RouteHops">
+                        <object name="{i}">
+                            <param name="HopHost"/>
+                        </object>
+                    </object>
+                </object>
+                <object name="Stats">
+                    <param name="ConnectionUpTime" get_func="cpe_get_d_lan_s_connectionuptime"/>
+                    <param name="TotalBytesSent" get_func="cpe_get_d_lan_s_totalbytessent"/>
+                    <param name="TotalBytesReceived" get_func="cpe_get_d_lan_s_totalbytesreceived"/>
+                    <param name="TotalPacketsSent" get_func="cpe_get_d_lan_s_totalpacketssent"/>
+                    <param name="TotalPacketsReceived" get_func="cpe_get_d_lan_s_totalpacketsreceived"/>
+                </object>
+            </object>
+            <object name="STBService">
+                <param name="StreamingControlProtocols" get_func="cpe_get_d_stb_stmcoprts"/>
+                <param name="StreamingTransportProtocols" get_func="cpe_get_d_stb_stmtraprts"/>
+                <param name="StreamingTransportControlProtocols" get_func="cpe_get_d_stb_stmtracoprts"/>
+                <param name="DownloadTransportProtocols" get_func="cpe_get_d_stb_downloadprotcols"/>
+                <param name="MultiplexTypes" get_func="cpe_get_d_stb_multiplextypes"/>
+                <param name="MaxDejitteringBufferSize" get_func="cpe_get_d_stb_maxdjbuffer"/>
+                <param name="AudioStandards" get_func="cpe_get_d_stb_autostands"/>
+                <param name="VideoStandards" get_func="cpe_get_d_stb_videostands"/>
+                <param name="BACDomainName" rw="1" get_func="cpe_get_d_stb_bacdomainname" set_func="cpe_set_d_stb_bacdomainname"/>
+                <param name="BACAddress1" rw="1" get_func="cpe_get_d_stb_bacaddress1" set_func="cpe_set_d_stb_bacaddress1"/>
+                <param name="BACAddress2" rw="1" get_func="cpe_get_d_stb_bacaddress2" set_func="cpe_set_d_stb_bacaddress2"/>
+            </object>
+            <object name="X_CMCC_OTT">
+                <object name="ServiceInfo">
+                    <param name="PlatformURL" rw="1" get_func="cpe_get_cmccott_platformurl" set_func="cpe_set_cmccott_platformurl"/>
+                    <param name="NtvUserAccount" rw="1" get_func="cpe_get_cmccott_ntvuseraccount" set_func="cpe_set_cmccott_ntvuseraccount"/>
+                    <param name="NtvUserPassword" rw="1"  get_func="cpe_get_cmccott_ntvuserpassword" set_func="cpe_set_cmccott_ntvuserpassword"/>
+                </object>
+            </object>
+            <object name="X_CMCC_OTV">
+                <param name="STBID" get_func="cpe_get_d_cmcc_stbid"/>
+                <param name="PhyMemSize" get_func="cpe_get_d_cmcc_memsize"/>
+                <param name="StorageSize" get_func="cpe_get_d_cmcc_otv_ststoragesize"/>
+                <param name="ForceUpgrade" rw="1" get_func="cpe_get_d_cmcc_seri_forceupgrade" set_func="cpe_set_d_cmcc_seri_forceupgrade"/>
+                <object name="STBInfo">
+                    <param name="STBID" get_func="cpe_get_d_cmcc_stbi_stbid"/>
+                    <param name="UserID" rw="1" get_func="cpe_get_d_ctc_seri_userid" set_func="cpe_set_d_ctc_seri_userid"/>
+                    <param name="UserIDPassword" rw="1" get_func="cpe_get_d_ctc_seri_passwd" set_func="cpe_set_d_ctc_seri_passwd"/>
+                    <param name="AuthURL" rw="1" get_func="cpe_get_d_ctc_seri_authurl" set_func="cpe_set_d_ctc_seri_authurl"/>
+                    <param name="PhyMemSize" get_func="cpe_get_d_cmcc_stbi_memsize"/>
+                    <param name="StorageSize" get_func="cpe_get_d_cmcc_ststoragesize"/>
+                </object>
+                <object name="ServiceInfo">
+                    <param name="PPPoEID" rw="1" get_func="cpe_get_d_cmcc_seri_pppoeid"  set_func="cpe_set_d_cmcc_seri_pppoeid"/>
+                    <param name="PPPoEPassword" rw="1" set_func="cpe_set_d_cmcc_seri_pppoepwd"/>
+                    <param name="DHCPID" rw="1" get_func="cpe_get_d_cmcc_seri_dhcpid"  set_func="cpe_set_d_cmcc_seri_dhcpid"/>
+                    <param name="DHCPPassword" rw="1" get_func="cpe_get_d_cmcc_seri_dhcppassword"  set_func="cpe_set_d_cmcc_seri_dhcppassword"/>
+                    <param name="UserID" rw="1" get_func="cpe_get_d_cmcc_seri_userid" set_func="cpe_set_d_cmcc_seri_userid"/>
+                    <param name="Password" rw="1" get_func="cpe_get_d_cmcc_seri_passwd" set_func="cpe_set_d_cmcc_seri_passwd"/>
+                    <param name="AuthURL" rw="1" get_func="cpe_get_d_cmcc_seri_authurl" set_func="cpe_set_d_cmcc_seri_authurl"/>
+                    <param name="PlatformURL" rw="1" get_func="cpe_get_d_cmcc_seri_platformurl" set_func="cpe_set_d_cmcc_seri_platformurl"/>
+                    <param name="PlatformURLBackup" rw="1" get_func="cpe_get_d_cmcc_seri_platformurlbackup" set_func="cpe_set_d_cmcc_seri_platformurlbackup"/>
+                    <param name="HDCURL" rw="1" get_func="cpe_get_d_cmcc_seri_hdcurl" set_func="cpe_set_d_cmcc_seri_hdcurl"/>
+                    <param name="UserInstallApplication" rw="1" get_func="cpe_get_d_cmcc_seri_userinstallapplication" set_func="cpe_set_d_cmcc_seri_userinstallapplication"/>
+                    <param name="SilentUpgrade" rw="1" get_func="cpe_get_d_cmcc_seri_silentupgrade" set_func="cpe_set_d_cmcc_seri_silentupgrade"/>
+                    <param name="UpgradeURL" rw="1" get_func="cpe_get_d_cmcc_seri_upgradeurl" set_func="cpe_set_d_cmcc_seri_upgradeurl"/>
+                    <param name="CurrentResRatio" rw="1" get_func="cpe_get_d_cmcc_current_resratio" set_func="cpe_set_d_cmcc_current_resratio"/>
+                    <param name="LocalResRatioList" rw="1" get_func="cpe_get_d_cmcc_logcal_resrationlist" />
+                    <param name="CurrentTVSize" rw="1" get_func="cpe_get_d_cmcc_seri_current_tvsize"/>
+                    <param name="CurrentTVModel" rw="1" get_func="cpe_get_d_cmcc_current_tvmodel"/>
+                    <object name="USBPermitInstalledAPP">
+                        <param name="NumofAPP" rw="0" get_func="cpe_get_d_cmcc_seri_numofapp"/>
+                        <object name="UsbInstalledAppList" rw="1" type="obj" refresh_func="cpe_refresh_d_cmcc_seri_usbinstalledapplist" add_func="cpe_add_d_cmcc_seri_usbinstalledapplist" del_func="cpe_del_d_cmcc_seri_usbinstalledapplist">
+                            <object name="{i}" rw="1">
+                                <param name="PackageName" type="s" rw="1" get_func="cpe_get_d_cmcc_seri_u_pakagename" set_func="cpe_set_d_cmcc_seri_u_pakagename"/>
+                                <param name="ClassName" type="s" rw="1" get_func="cpe_get_d_cmcc_seri_u_classename" set_func="cpe_set_d_cmcc_seri_u_classename"/>
+                            </object>
+                        </object>
+                    </object>
+                    <param name="WiFiEnable" rw="1" get_func="cpe_get_d_cmcc_seri_wifienable" set_func="cpe_set_d_cmcc_seri_wifienable"/>
+                    <param name="HLSSEGMENT" rw="1" get_func="cpe_get_d_cmcc_seri_hlssegment" set_func="cpe_set_d_cmcc_seri_hlssegment"/>
+                </object>
+                <object name="Extention">
+                    <param name="AppAutoRunBlackListFlag" rw="1" get_func="cpe_get_d_cmcc_ex_appautorunblacklistflag" set_func="cpe_set_d_cmcc_ex_appautorunblacklistflag"/>
+                    <param name="NumOfAppAutoRunBlackList" rw="0" get_func="cpe_get_d_cmcc_ex_numofappautorunblacklist" set_func=""/>
+                    <object name="AppAutoRunBlackList" rw="1" type="obj" refresh_func="cpe_refresh_d_cmcc_ex_appautorunblacklist" add_func="cpe_add_d_cmcc_ex_appautorunblacklist" del_func="cpe_del_d_cmcc_ex_appautorunblacklist">
+                        <object name="{i}" rw="1">
+                            <param name="PackageName" type="s" rw="1" get_func="cpe_get_d_cmcc_ex_pakagename" set_func="cpe_set_d_cmcc_ex_pakagename"/>
+                            <param name="ClassName" type="s" rw="1" get_func="cpe_get_d_cmcc_ex_classname" set_func="cpe_set_d_cmcc_ex_classname"/>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object name="X_STB_Stats">
+                <param name="CPULoad" get_func="cpe_get_d_stb_CPULoad"/>
+                <param name="MemLoad" get_func="cpe_get_d_stb_MemLoad"/>
+                <param name="StorageLoad" get_func="cpe_get_d_stb_StorageLoad"/>
+            </object>
+            <object name="X_CT-COM">
+                <object name="AuthServiceInfo">
+                    <param name="Activate" rw="1" get_func="cpe_get_x_ctcom_activate" set_func="cpe_set_x_ctcom_activate"/>
+                </object>
+            </object>
+            <object name="X_CTC_IPTV">
+                <param name="PhyMemSize" get_func="cpe_get_d_CTC_PhyMemSize"/>
+                <param name="StorageSize" get_func="cpe_get_d_CTC_StorageSize"/>
+                <object name="ServiceInfo">
+                    <param name="UserID" rw="1" get_func="cpe_get_d_ctc_iptv_seri_userid" set_func="cpe_set_d_ctc_iptv_seri_userid"/>
+                    <param name="UserPassword" rw="1" get_func="cpe_get_d_ctc_iptv_seri_passwd" set_func="cpe_set_d_ctc_iptv_seri_passwd"/>
+                    <param name="IPOEID" rw="1" get_func="cpe_get_d_ctc_iptv_seri_ipoeid" set_func="cpe_set_d_ctc_iptv_seri_ipoeid"/>
+                    <param name="IPOEPassword" rw="1" get_func="cpe_get_d_ctc_iptv_seri_ipoepasswd" set_func="cpe_set_d_ctc_iptv_seri_ipoepasswd"/>
+                    <param name="AuthURL" rw="1" get_func="cpe_get_d_ctc_iptv_seri_authurl" set_func="cpe_set_d_ctc_iptv_seri_authurl"/>
+                    <param name="AuthURLBackup" rw="1" get_func="cpe_get_d_ctc_iptv_seri_authurlbackup" set_func="cpe_set_d_ctc_iptv_seri_authurlbackup"/>
+                </object>
+            </object>
+            <object name="X_CTC_">
+                <param name="STBID" get_func="cpe_get_d_ctc_stbid"/>
+                <object name="ServiceInfo">
+                    <param name="UserID" rw="1" get_func="cpe_get_d_ctc_seri_userid" set_func="cpe_set_d_ctc_seri_userid"/>
+                    <param name="UserPassword" rw="1" get_func="cpe_get_d_ctc_seri_passwd" set_func="cpe_set_d_ctc_seri_passwd"/>
+                    <param name="AuthURL" rw="1" get_func="cpe_get_d_ctc_seri_authurl" set_func="cpe_set_d_ctc_seri_authurl"/>
+                </object>
+            </object>
+            <object name="Qos">
+                <param name="BytesReceived" get_func="cpe_get_d_Qos_BytesReceived"/>
+                <param name="PacketsReceived" get_func="cpe_get_d_Qos_PacketsReceived"/>				
+            </object>
+            <object name="X_00E0FC">
+                <param name="IsEncryptMark" get_func="cpe_get_d_X_IsEncryptMark"/>
+                <param name="ErrorCodeSwitch" rw="1" get_func="cpe_get_d_X_ErrorCodeSwitch" set_func="cpe_set_d_X_ErrorCodeSwitch"/>
+                <param name="ErrorCodeInterval" rw="1" get_func="cpe_get_d_X_ErrorCodeInterval" set_func="cpe_set_d_X_ErrorCodeInterval"/>
+                <param name="ConnectMode"  get_func="cpe_get_d_X_ConnectMode"/>
+                <param name="HDMIConnect" get_func="cpe_get_d_X_HDMIConnect"/>
+                <param name="SoftwareVersionList" get_func="cpe_get_d_X_SoftwareVersionList"/>
+                <object name="ErrorCode">
+                    <object name="{i}">
+                        <param name="ErrorCodeTime" get_func="cpe_get_d_X_ErrorCodeTime"/>
+                        <param name="ErrorCodeValue" get_func="cpe_get_d_X_ErrorCodeValue"/>
+                    </object>
+                </object>
+                <object name="LogParaConfiguration">
+                    <param name="ErrorCodeTime" set_func="cpe_set_d_X_LogConf_ErrorCodeTime"/>
+                    <param name="ErrorCodeValue" set_func="cpe_set_d_X_LogConf_ErrorCodeValue"/>
+                    <param name="LogType" set_func="cpe_set_d_X_LogConf_LogType"/>
+                    <param name="LogLevel" set_func="cpe_set_d_X_LogConf_LogLevel"/>
+                    <param name="LogOutPutType" set_func="cpe_set_d_X_LogConf_LogOutPutType"/>
+                    <param name="SyslogServer" set_func="cpe_set_d_X_LogConf_SyslogServer"/>
+                    <param name="SyslogStartTime" set_func="cpe_set_d_X_LogConf_SyslogStartTime"/>
+                    <param name="SyslogContinueTime" set_func="cpe_set_d_X_LogConf_SyslogContinueTime"/>
+                </object>
+                <object name="PlayDiagnostics">
+                    <param name="PlayURL" rw="1" get_func="cpe_get_d_X_Play_PlayURL" set_func="cpe_set_d_X_Play_PlayURL"/>
+                    <param name="PlayState" rw="1" get_func="cpe_get_d_X_Play_PlayState" set_func="cpe_set_d_X_Play_PlayState"/>
+                    <param name="DiagnosticsState" rw="1" get_func="cpe_get_d_X_Play_DiagnosticsState" set_func="cpe_set_d_X_Play_DiagnosticsState"/>
+                </object>
+            </object>
+        </object>
+    </model>
+
+    <event>
+        <BOOTSTARP event_code="0 BOOTSTARP">
+            <paramlist>
+                <param node="Device.DeviceSummary"/>
+                <param node="Device.DeviceInfo.ModelName"/>
+                <param node="Device.DeviceInfo.Description"/>
+                <param node="Device.DeviceInfo.HardwareVersion"/>
+                <param node="Device.DeviceInfo.SoftwareVersion"/>
+                <param node="Device.DeviceInfo.SerialNumber"/>
+                <param node="Device.ManagementServer.ConnectionRequestURL"/>
+                <param node="Device.ManagementServer.URL"/>
+                <param node="Device.ManagementServer.Username"/>
+                <param node="Device.ManagementServer.Password"/>
+                <param node="Device.LAN.MACAddress"/>
+            </paramlist>
+        </BOOTSTARP>
+        <BOOT event_code="1 BOOT">
+            <paramlist>
+                <param node="Device.DeviceSummary"/>
+                <param node="Device.DeviceInfo.ModelName"/>
+                <param node="Device.DeviceInfo.Description"/>
+                <param node="Device.DeviceInfo.HardwareVersion"/>
+                <param node="Device.DeviceInfo.SoftwareVersion"/>
+                <param node="Device.DeviceInfo.SerialNumber"/>
+                <param node="Device.ManagementServer.ConnectionRequestURL"/>
+		  <param node="Device.ManagementServer.URL"/>
+                <param node="Device.ManagementServer.Username"/>
+                <param node="Device.ManagementServer.Password"/>
+                <param node="Device.LAN.MACAddress"/>
+            </paramlist>
+        </BOOT>
+        <PERIODIC event_code="2 PERIODIC">
+            <paramlist>
+                <param node="Device.DeviceSummary"/>
+                <param node="Device.DeviceInfo.ModelName"/>
+                <param node="Device.DeviceInfo.UpTime"/>
+                <param node="Device.DeviceInfo.HardwareVersion"/>
+                <param node="Device.DeviceInfo.SoftwareVersion"/>
+                <param node="Device.DeviceInfo.SerialNumber"/>
+                <param node="Device.ManagementServer.ConnectionRequestURL"/>
+                <param node="Device.ManagementServer.ParameterKey"/>
+                <param node="Device.LAN.AddressingType"/>
+                <param node="Device.LAN.IPAddress"/>
+                <param node="Device.LAN.MACAddress"/>
+                <param node="Device.X_00E0FC.STBID"/>
+            </paramlist>
+        </PERIODIC>
+        <VALUECHANGE event_code="4 VALUECHANGE">
+            <paramlist>
+                <param node="Device.DeviceInfo.HardwareVersion"/>
+                <param node="Device.DeviceInfo.SoftwareVersion"/>
+                <param node="Device.ManagementServer.URL"/>
+                <param node="Device.X_CMCC_Enterprise.PortalPassword"/>
+                <param node="Device.ManagementServer.ConnectionRequestURL"/>
+                <param node="Device.ManagementServer.UDPConnectionRequestAddress"/>
+				<param node="Device.ManagementServer.STUNEnable"/>
+				<param node="Device.ManagementServer.STUNServerAddress"/>
+				<param node="Device.ManagementServer.STUNServerPort"/>
+				<param node="Device.ManagementServer.STUNUsername"/>
+				<param node="Device.ManagementServer.STUNPassword"/>
+                <param node="Device.ManagementServer.NATDetected"/>
+                <param node="Device.LAN.MACAddress"/>
+            </paramlist>
+        </VALUECHANGE>
+
+        <CONNECTIONREQUEST event_code="6 CONNECTION REQUEST">
+            <paramlist>
+                <param node="Device.DeviceInfo.HardwareVersion"/>
+                <param node="Device.DeviceInfo.SoftwareVersion"/>
+                <param node="Device.ManagementServer.Username"/>
+                <param node="Device.ManagementServer.Password"/>
+                <param node="Device.ManagementServer.PeriodicInformInterval"/>
+                <param node="Device.ManagementServer.ParameterKey"/>
+                <param node="Device.ManagementServer.ConnectionRequestURL"/>
+                <param node="Device.LAN.IPAddress"/>
+                <param node="Device.X_00E0FC.STBID"/>
+            </paramlist>
+        </CONNECTIONREQUEST>
+        <TRANSFERCOMPLETE event_code="7 TRANSFER COMPLETE">
+            <paramlist>
+                <param node="Device.DeviceSummary"/>
+                <param node="Device.LAN.MACAddress"/>
+                <param node="Device.DeviceInfo.SoftwareVersion"/>
+                <param node="Device.DeviceInfo.HardwareVersion"/>
+                <param node="Device.ManagementServer.ParameterKey"/>
+                <param node="Device.ManagementServer.ConnectionRequestURL"/>
+                <param node="Device.LAN.IPAddress"/>
+                <param node="Device.X_00E0FC.STBID"/>
+            </paramlist>
+        </TRANSFERCOMPLETE>
+        <DIAGNOSTICSCOMPLETE event_code="8 DIAGNOSTICS COMPLETE">
+            <paramlist>
+                <param node="Device.DeviceSummary"/>
+                <param node="Device.LAN.MACAddress"/>
+                <param node="Device.LAN.IPAddress"/>
+                <param node="Device.X_00E0FC.STBID"/>
+            </paramlist>
+        </DIAGNOSTICSCOMPLETE>
+        <ERRORCODE event_code="X CTC ErrorCode">
+            <paramlist>
+            </paramlist>
+        </ERRORCODE>
+        <SHUTDOWN event_code="M X_CTC_SHUT_DOWN">
+            <paramlist>
+                <param node="Device.DeviceSummary"/>
+                <param node="Device.LAN.MACAddress"/>
+                <param node="Device.DeviceInfo.SoftwareVersion"/>
+                <param node="Device.LAN.IPAddress"/>
+                <param node="Device.LAN.AddressingType"/>
+                <param node="Device.X_00E0FC.STBID"/>
+                <param node="Device.X_00E0FC.ServiceInfo.UserID"/>
+                <param node="Device.X_00E0FC.ServiceInfo.PPPoEID"/>
+            </paramlist>
+        </SHUTDOWN>
+        <X_CMCC_BIND event_code="X CMCC BIND">
+            <paramlist>
+                <param node="Device.X_CMCC_UserInfo.Password"/>
+                <param node="Device.DeviceInfo.SerialNumber"/>
+                <param node="Device.DeviceSummary"/>
+                <param node="Device.DeviceInfo.HardwareVersion"/>
+                <param node="Device.DeviceInfo.SoftwareVersion"/>
+                <param node="Device.DeviceInfo.Description"/>
+                <param node="Device.ManagementServer.URL"/>
+                <param node="Device.ManagementServer.Username"/>
+                <param node="Device.ManagementServer.Password"/>
+                <param node="Device.ManagementServer.PeriodicInformEnable"/>
+                <param node="Device.ManagementServer.PeriodicInformInterval"/>
+                <param node="Device.ManagementServer.ParameterKey"/>
+                <param node="Device.ManagementServer.ConnectionRequestURL"/>
+                <param node="Device.ManagementServer.UDPConnectionRequestAddress"/>
+                <param node="Device.ManagementServer.NATDetected"/>
+                <param node="Device.ManagementServer.STUNEnable"/>
+		  <param node="Device.ManagementServer.STUNServerAddress"/>
+		  <param node="Device.ManagementServer.STUNServerPort"/>
+		  <param node="Device.ManagementServer.STUNUsername"/>
+		  <param node="Device.ManagementServer.STUNPassword"/>
+		  <param node="Device.LAN.MACAddress"/>
+                <param node="Device.LAN.IPAddress"/>
+            </paramlist>
+        </X_CMCC_BIND>
+    </event>
+
+</cwmp>

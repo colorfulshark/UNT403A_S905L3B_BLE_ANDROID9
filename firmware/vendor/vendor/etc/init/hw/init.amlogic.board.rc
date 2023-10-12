@@ -1,0 +1,64 @@
+import /vendor/etc/init/hw/init.amlogic.tb_detect.rc
+on early-init
+    loglevel 3
+    #start console
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor performance
+    mount configfs configfs /sys/kernel/config
+    #mount usbfs none /proc/bus/usb
+    insmod /vendor/lib/modules/mali.ko
+
+
+on init
+   #start console
+
+on early-boot
+    insmod /vendor/lib/modules/hdr10_tmo_alg.ko
+    insmod /vendor/lib/modules/cfg80211.ko
+    insmod /vendor/lib/modules/dovi.ko
+    insmod /vendor/lib/sl_hdr.ko
+    insmod /vendor/lib/modules/aml_hardware_dmx.ko
+    insmod /vendor/lib/modules/cuva_hdr_alg.ko
+
+on boot
+    #write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor interactive
+    write /sys/class/freq_limit/limit 0
+
+    chmod 666 /dev/galcore
+    write /sys/module/amvdec_mh264/parameters/reorder_dpb_size_margin 9
+    write /sys/module/amvdec_h265/parameters/dynamic_buf_num_margin 9
+    write /sys/module/decoder_common/parameters/v4lvideo_add_di 0
+    write /sys/class/video_composer/max_width 1280
+    write /sys/class/video_composer/max_height 720
+
+on property:sys.boot_completed=1
+	#for wifi throughput
+	write /sys/class/net/wlan0/queues/rx-0/rps_cpus  f
+	write /proc/sys/kernel/sched_domain/cpu0/domain0/flags 4127
+	write /proc/sys/kernel/sched_domain/cpu1/domain0/flags 4127
+	write /proc/sys/kernel/sched_domain/cpu2/domain0/flags 4127
+	write /proc/sys/kernel/sched_domain/cpu3/domain0/flags 4127
+	write /proc/sys/kernel/sched_migration_cost_ns  1000
+
+
+#start load_remote
+    chmod 666 /vendor/bin/remotecfg.sh
+    start load_remote
+
+    chmod 755 /vendor/bin/startsoftdetector.sh
+    start softprobe
+
+service load_remote /vendor/bin/sh /vendor/bin/remotecfg.sh
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:load_remote:s0
+
+service softprobe /system/bin/sh /vendor/bin/startsoftdetector.sh
+    user root
+    group root
+    oneshot
+    disabled
+    seclabel u:r:softprobe:s0
+
+

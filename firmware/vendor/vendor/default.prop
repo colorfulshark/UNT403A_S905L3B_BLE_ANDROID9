@@ -1,0 +1,7 @@
+#
+# ADDITIONAL VENDOR DEFAULT PROPERTIES
+#
+ro.vndk.version=28
+ro.zygote=zygote32
+ro.logd.size.stats=64K
+log.tag.stats_log=I

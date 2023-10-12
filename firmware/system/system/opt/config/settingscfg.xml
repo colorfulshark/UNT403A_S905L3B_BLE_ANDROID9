@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settingscfg>
+    <config id="001">
+        <!-- MAIN -->
+        <operators>1</operators>
+        <password>10086</password>
+        <province>common</province>
+        
+        <hotspot>1</hotspot>
+        <netcheck>1</netcheck>
+        <platform>0</platform>
+        <businessaddr>2</businessaddr>
+        <businessaccount>2</businessaccount>
+        
+        <autostandby>1</autostandby>
+        <reset>2</reset>
+		<resetpassword>10086</resetpassword>
+		<dlna>1</dlna>
+		<diypwd>1</diypwd>
+        <mediacenter>1</mediacenter>
+        <!-- UI -->
+        <authdhcp>IPoE</authdhcp>
+    </config>
+    
+</settingscfg>

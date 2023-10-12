@@ -1,0 +1,322 @@
+on boot
+    chown media system /sys/class/tsync/firstapts
+    chown media system /sys/class/tsync/firstvpts
+    chown media system /sys/class/tsync/checkin_firstvpts
+    chown media system /sys/class/tsync/pts_video
+    chown media system /sys/class/tsync/pts_audio
+    chown media system /sys/class/tsync/pts_pcrscr
+    chown media system /sys/class/tsync/event
+    chown media system /sys/class/tsync/mode
+    chown media system /sys/class/tsync/enable
+    chown media system /sys/class/tsync/av_threshold_min
+    chown media system /sys/class/tsync/av_threshold_max
+    chown media system /sys/class/tsync/slowsync_enable
+    chown media system /sys/class/tsync/vpause_flag
+    chown media system /sys/class/tsync/current_position
+    chown media system /sys/class/video/slowsync_repeat_enable
+    chown media system /sys/class/video/freerun_mode
+    chown media system /sys/class/video/vsync_pts_inc_upint
+    chown system system /sys/class/graphics/fb0/blank
+    chown media system /sys/class/graphics/fb1/blank
+    chown media system /sys/class/tv/policy_fr_auto
+    chown media system /sys/class/tv/policy_fr_auto_switch
+    chown media system /sys/class/graphics/fb0/order
+    chown media system /sys/class/graphics/fb1/order
+    chown media system /sys/class/graphics/fb0/enable_key
+    chown media system /sys/class/graphics/fb0/enable_key_onhold
+    chown media system /sys/module/amlvideodri/parameters/freerun_mode
+    chown media system /sys/module/ionvideo/parameters/freerun_mode
+    chown media system /sys/class/vdec/poweron_clock_level
+    chown media system /sys/class/video/axis_pip
+    chown media system /sys/module/amlvideodri/parameters/pp_width
+    chown media system /sys/module/amlvideodri/parameters/pp_height
+    chown media system /sys/class/video/pcr_slow_factor
+
+    chmod 0666 /sys/class/video/axis_pip
+    chmod 0666 /sys/module/amlvideodri/parameters/pp_width
+    chmod 0666 /sys/module/amlvideodri/parameters/pp_height
+    chmod 0664 /sys/class/tsync/slowsync_enable
+    chmod 0664 /sys/class/tsync/vpause_flag
+    chmod 0664 /sys/class/video/slowsync_repeat_enable
+    chmod 0777 /sys/class/tsync/startsync_mode
+    chmod 0666 /sys/class/video/freerun_mode
+    chmod 0666 /sys/class/video/vsync_pts_inc_upint
+    chmod 0666 /sys/module/am_vecm/parameters/hdr_mode
+    chmod 0666 /sys/module/amvideo/parameters/manual_duration
+    chmod 0666 /sys/module/amvideo/parameters/manual_duration_change
+    chmod 0664 /sys/module/amvideo/parameters/toggle_count
+    chmod 0666 /sys/module/amvideo/parameters/amplayer_flag
+    chmod 0666 /sys/module/di/parameters/time_debug
+    chmod 0666 /sys/module/amports/parameters/debugflags
+    chmod 0666 /sys/module/di/parameters/strong_dm
+    chmod 0666 /sys/module/di/parameters/bypass_trick_mode
+    chmod 0666 /sys/module/di/parameters/first_quick_output
+    chmod 0666 /sys/module/amvdec_h265/parameters/fast_output_enable
+    chmod 0666 /sys/module/amvideo/parameters/chip_fast_flag
+    chmod 0666 /sys/module/amports/parameters/decode_underflow
+    chmod 0664 /sys/class/graphics/fb0/blank
+    chmod 0664 /sys/class/graphics/fb1/blank
+    chmod 0664 /sys/class/tv/policy_fr_auto
+    chmod 0664 /sys/class/tv/policy_fr_auto_switch
+    chmod 0666 /sys/kernel/debug/aml_reg/paddr
+    chmod 0666 /sys/class/video/pcr_slow_factor
+
+    chown media system /sys/class/video/show_first_frame_nosync
+    chown media system /sys/class/video/blackout_policy
+    chown media system /sys/class/video/screen_mode
+    chown media system /sys/class/video/axis
+    chown media system /sys/class/video/crop
+    chown media system /sys/class/video/disable_video
+    chown media system /sys/class/video/zoom
+    chmod 0664 /sys/class/video/show_first_frame_nosync
+    chown media system /sys/class/ppmgr/angle
+    chown media system /sys/class/ppmgr/disp
+    chown system system /sys/class/ppmgr/ppscaler
+    chown media system /sys/class/ppmgr/ppscaler_rect
+    chown media system /sys/class/ppmgr/vtarget
+    chown media system /sys/class/ppmgr/tb_detect
+    chmod 0664 /sys/class/ppmgr/tb_detect
+    write /sys/class/ppmgr/tb_detect 2
+    write /sys/class/video/rpt0 256
+    write /sys/class/video/rpt1 256
+    write /sys/class/video/rpt2 384
+    write /sys/class/video/rpt3 384
+    write /sys/module/di/parameters/first_quick_output 0
+    write /sys/module/amvdec_h265/parameters/fast_output_enable 1
+
+
+    chown media system /sys/class/amaudio/audio_channels_mask
+    chown media system /sys/class/amaudio/enable_resample
+    chown media system /sys/class/amaudio/resample_type
+
+    chown system system /sys/class/audiodsp/digital_raw
+    chown system system /sys/class/audiodsp/ac3_drc_control
+    chown media system /sys/class/audiodsp/dts_dec_control
+    chown system system /sys/devices/platform/spdif-dit.0/spdif_mute
+    chmod 0664  /sys/class/audiodsp/dts_dec_control
+    chmod 0666  /dev/audiodsp_pcmenc
+    chmod 0666  /dev/audio_spdif
+    chmod 0664  /sys/class/amaudio/debug
+    chown media system /sys/class/amaudio/debug
+    #chmod 0666 /dev/amstream_sub_read
+    chmod 0666 /dev/ilitek_ctrl
+
+    chmod 0660 /dev/wifi_power
+    chmod 0666 /dev/tfsec
+
+    chmod 0666 /sys/module/amvideo/parameters/horz_scaler_filter
+    chmod 0666 /sys/module/rdma/parameters/enable_mask
+    chown media system /sys/module/rdma/parameters/enable_mask
+
+# default support XBMC
+    chmod 666 /dev/amvideo
+#add for XBMC BlueRay 3d and audio Passthrough
+    chown system system /sys/class/subtitle/sub_language
+    chown system system /sys/class/subtitle/sub_title_info
+    chmod 666 /sys/class/subtitle/enable
+    chmod 666 /sys/class/subtitle/total
+    chmod 666 /sys/class/subtitle/width
+    chmod 666 /sys/class/subtitle/height
+    chmod 666 /sys/class/subtitle/type
+    chmod 666 /sys/class/subtitle/curr
+    chmod 666 /sys/class/subtitle/size
+    chmod 666 /sys/class/subtitle/data
+    chmod 666 /sys/class/subtitle/startpts
+    chmod 666 /sys/class/subtitle/fps
+    chmod 666 /sys/class/subtitle/subtype
+    chmod 666 /sys/class/subtitle/sub_language
+    chmod 666 /sys/class/subtitle/sub_title_info
+    chown media system /sys/class/amaudio/debug
+
+    # DVB
+    chmod 0666 /dev/dvb0.frontend0
+    chmod 0666 /dev/dvb0.demux0
+    chmod 0666 /dev/dvb0.demux1
+    chmod 0666 /dev/dvb0.demux2
+    chmod 0666 /dev/dvb0.dvr0
+    chmod 0666 /dev/dvb0.dvr1
+    chmod 0666 /dev/dvb0.dvr2
+
+    chown media system /sys/class/stb/demux0_source
+    chown media system /sys/class/stb/demux1_source
+    chown media system /sys/class/stb/demux2_source
+    chown media system /sys/class/stb/source
+    chown media system /sys/class/stb/asyncfifo0_source
+    chown media system /sys/class/stb/asyncfifo1_source
+    chown media system /sys/class/stb/asyncfifo0_flush_size
+    chown media system /sys/class/stb/asyncfifo1_flush_size
+    chown media system /sys/class/stb/video_pts
+    chown media system /sys/class/stb/audio_pts
+    chown media system /sys/class/stb/dsc_source
+
+    # chmod 0666 /dev/ge2d
+    chmod 0660 /dev/amaudio_ctl
+    chown media system /sys/class/tsync/pcr_recover
+
+    chown media system /sys/module/amvdec_h264/parameters/dec_control
+    chown media system /sys/module/amvdec_h264/parameters/fatal_error_reset
+    chown media system /sys/module/amvdec_h264/parameters/decoder_force_reset
+    chown media system /sys/module/amvdec_mpeg12/parameters/dec_control
+    chown media system /sys/module/di/parameters/bypass_hd
+    chown media system /sys/module/di/parameters/bypass_all
+    chown media system /sys/module/di/parameters/bypass_dynamic
+    chown media system /sys/module/di/parameters/bypass_prog
+    chown media system /sys/module/di/parameters/cue_enable
+    chown media system /sys/module/di/parameters/invert_top_bot
+    chown media system /sys/module/amvideo/parameters/smooth_sync_enable
+    chown media system /sys/module/amvideo/parameters/toggle_count
+    chown media system /sys/module/amvideo/parameters/ctsplayer_exist
+    chown media system /sys/module/amvdec_h264/parameters/error_recovery_mode
+
+    chown media system /sys/module/deinterlace/parameters/deinterlace_mode
+    chown media system /sys/class/graphics/fb0/block_mode
+    # HDMI/LCD switch
+    chown system system /sys/class/display/mode
+    chown media system /sys/class/display/axis
+    chown system system /sys/class/graphics/fb0/scale
+    chown system system /sys/class/graphics/fb1/scale
+    chown system system /sys/class/graphics/fb0/scale_axis
+    chown system system /sys/class/graphics/fb1/scale_axis
+    chown system system /sys/class/amhdmitx/amhdmitx0/disp_mode
+    chown system system /sys/class/amhdmitx/amhdmitx0/cec_config
+    chown system system /sys/class/amhdmitx/amhdmitx0/phy_addr
+    chown system system /sys/class/amhdmitx/amhdmitx0/hpd_state
+    chown system system /sys/class/amhdmitx/amhdmitx0/cec
+    chown system system /sys/class/amhdmitx/amhdmitx0/cec_lang_config
+    chown system system /sys/class/amhdmitx/amhdmitx0/config
+    chown system system /sys/class/amhdmitx/amhdmitx0/avmute
+    chown system system /sys/class/amhdmitx/amhdmitx0/hdcp_ctrl
+    chown system system /sys/class/amhdmitx/amhdmitx0/hdcp_mode
+    chmod 644 /sys/class/amhdmitx/amhdmitx0/avmute
+    chown system system /sys/class/amhdmitx/amhdmitx0/aud_output_chs
+
+    chown media  system /sys/class/vfm/map
+
+    # Free scale
+    chown system system /sys/class/graphics/fb0/free_scale
+    chown system system /sys/class/graphics/fb0/scale_width
+    chown system system /sys/class/graphics/fb0/scale_height
+    chown system system /sys/class/graphics/fb0/free_scale_axis
+    chown system system /sys/class/graphics/fb1/free_scale
+    chown system system /sys/class/graphics/fb1/scale_width
+    chown system system /sys/class/graphics/fb1/scale_height
+    chown media system /sys/class/graphics/fb0/request2XScale
+    chown system system /sys/class/graphics/fb0/freescale_mode
+    chown system system /sys/class/graphics/fb0/free_scale_axis
+    chown system system /sys/class/graphics/fb0/window_axis
+
+    chmod 777 /sys/class/subtitle/sub_styleinfo
+    chmod 777 /sys/class/subtitle/title
+
+    # CPU scaling
+    chown system system /sys/class/thermal/thermal_zone0/mode
+    chown system system /sys/class/thermal/thermal_zone1/mode
+    chown system system /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+    chown system system /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+    chown system system /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+    chown system system /sys/devices/system/cpu/cpufreq/conservative/freq_step
+    chown system system /sys/devices/system/cpu/cpufreq/interactive/boost
+
+    chown system system /sys/devices/system/cpu/cpufreq/performance2/sampling_rate
+    chown system system /sys/devices/system/cpu/cpufreq/performance2/down_threshold
+    chown system system /sys/devices/system/cpu/cpufreq/performance2/up_threshold
+    chown system system /sys/devices/system/cpu/cpufreq/conservative/sampling_rate
+    chown system system /sys/devices/system/cpu/cpufreq/conservative/down_threshold
+    chown system system /sys/devices/system/cpu/cpufreq/conservative/up_threshold
+    chown system system /sys/class/mali_freq/max
+    chown system system /sys/class/freq_limit/limit
+    chown system system /sys/devices/system/cpu/cpu1/online
+    chown system system /sys/class/thermal/thermal_zone1/trip_point_0_temp
+    chown system system /sys/class/thermal/thermal_zone1/trip_point_1_temp
+    chown system system /sys/class/thermal/thermal_zone1/trip_point_2_temp
+    chown system system /sys/class/thermal/thermal_zone1/trip_point_3_temp
+    chown system system /sys/class/mpgpu/scale_mode
+    chown system system /sys/class/mpgpu/max_pp
+    chown system system /sys/class/mpgpu/max_freq
+
+    chmod 664 /sys/class/thermal/thermal_zone0/mode
+    chmod 664 /sys/class/thermal/thermal_zone1/mode
+    chmod 664 /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+    chmod 664 /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+    chmod 664 /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+    chmod 664 /sys/devices/system/cpu/cpufreq/conservative/freq_step
+    chmod 664 /sys/devices/system/cpu/cpufreq/interactive/boost
+    chmod 664 /sys/devices/system/cpu/cpufreq/performance2/sampling_rate
+    chmod 664 /sys/devices/system/cpu/cpufreq/performance2/down_threshold
+    chmod 664 /sys/devices/system/cpu/cpufreq/performance2/up_threshold
+    chmod 664 /sys/devices/system/cpu/cpufreq/conservative/sampling_rate
+    chmod 664 /sys/devices/system/cpu/cpufreq/conservative/down_threshold
+    chmod 664 /sys/devices/system/cpu/cpufreq/conservative/up_threshold
+    chmod 664 /sys/class/mali_freq/max
+    chmod 664 /sys/devices/system/cpu/cpu1/online
+    chmod 777 /sys/class/amhdmitx/amhdmitx0/avmute
+    chmod 777 /sys/class/amhdmitx/amhdmitx0/phy
+    chmod 777 /sys/class/amhdmitx/amhdmitx0/debug
+    chmod 664 /sys/class/thermal/thermal_zone1/trip_point_0_temp
+    chmod 664 /sys/class/thermal/thermal_zone1/trip_point_1_temp
+    chmod 664 /sys/class/thermal/thermal_zone1/trip_point_2_temp
+    chmod 664 /sys/class/thermal/thermal_zone1/trip_point_3_temp
+    chmod 666 /sys/class/mpgpu/scale_mode
+    chmod 664 /sys/class/mpgpu/max_pp
+    chmod 664 /sys/class/mpgpu/max_freq
+    chmod 777 /sys/class/vfm/map
+    chmod 0666 /sys/class/thermal/thermal_zone0/keep_mode_threshold
+    chmod 0666 /sys/class/thermal/thermal_zone0/trip_point_0_temp
+    chmod 0666 /sys/class/thermal/thermal_zone0/trip_point_1_temp
+    chmod 0666 /sys/class/thermal/thermal_zone0/trip_point_2_temp
+    chmod 0666 /sys/class/thermal/thermal_zone0/trip_point_3_temp
+    chmod 0666 /sys/class/mpgpu/cur_freq
+    chmod 0666 /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+    chown system system /sys/devices/system/clocksource/clocksource0/current_clocksource
+    # hdcp2
+    write /sys/class/aml_keys/aml_keys/version auto3
+    chown media root /sys/class/aml_keys/aml_keys/hdcp
+    write /proc/sys/net/ipv4/tcp_max_syn_backlog 2048
+
+    mkdir /data/misc/hdcp 0770 media media
+    chown media root /sys/devices/platform/crypto_device/status
+    chown media root /sys/devices/platform/crypto_device/algname
+    chown media root /sys/devices/platform/crypto_device/keysize
+    chown media root /sys/devices/platform/crypto_device/keyaddr
+    chown media root /sys/devices/platform/crypto_device/srcaddr
+    chown media root /sys/devices/platform/crypto_device/dstaddr
+    chown media root /sys/devices/platform/crypto_device/size
+    chown media root /sys/devices/platform/crypto_device/dir
+
+    chown media system /sys/class/mpgpu/scale_mode
+    chmod 666 /sys/class/mpgpu/scale_mode
+    chown system system /sys/class/mpgpu/mpgpucmd
+    chmod 664 /sys/class/mpgpu/mpgpucmd
+
+    chown media system /sys/module/amvdec_h265/parameters/double_write_mode
+    chmod 666 /sys/module/amvdec_h265/parameters/double_write_mode
+    chown media system /sys/module/amvdec_h265/parameters/dynamic_buf_num_margin
+    chmod 666 /sys/module/amvdec_h265/parameters/dynamic_buf_num_margin
+    chown media system /sys/module/amvdec_h265/parameters/buf_alloc_height
+    chmod 666 /sys/module/amvdec_h265/parameters/buf_alloc_height
+    chown media system /sys/module/amvdec_h265/parameters/buf_alloc_width
+    chmod 666 /sys/module/amvdec_h265/parameters/buf_alloc_width
+
+	#Builtin mixer enable or disable
+	chown media system /sys/class/amaudio/builtin_mixer
+	chmod 664 /sys/class/amaudio/builtin_mixer
+    #Migu Mixer sound effect
+	chown system system /sys/class/amaudio/reverb_enable
+	chmod 664 /sys/class/amaudio/reverb_enable
+	chown system system /sys/class/amaudio/reverb_time
+	chmod 664 /sys/class/amaudio/reverb_time
+    #Migu Mixer mic gain
+	chown system system /sys/class/amaudio/mic_gain
+	chmod 664 /sys/class/amaudio/mic_gain
+
+    chmod 0666 /dev/amstream_mpts
+    chmod 0666 /dev/amvideo
+    chmod 0666 /dev/uio0
+    chmod 0666 /dev/amaudio_ctl
+    chmod 0666 /sys/class/vfm/map
+    chmod 0666 /sys/class/vdec/keep_vdec_mem
+    #IPTV KPI
+    chmod 666 /sys/devices/system/cpu/cpu0/cpufreq/interactive/boostpulse_duration
+    chmod 222 /sys/devices/system/cpu/cpu0/cpufreq/interactive/boostpulse
+    write /sys/class/codec_mm/config codec_mm.default_cma_res_size=67108864
+

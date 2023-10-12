@@ -1,0 +1,47 @@
+<keyFunctions>
+    <keyType name="combinekey"> 
+        <keyFunction>
+            <keyName>OneKeyLogCollectionActivity</keyName>
+            <keyValue>18,13,7,7,11,16,15,18</keyValue>
+            <event>startActivity</event>
+            <packageName>com.fiberhome.fhremotedebugserver</packageName>
+            <className>com.fiberhome.fhremotedebugserver.activity.OneKeyLogCollectionActivity</className>
+            <action>android.intent.action.MAIN</action>
+            <flag>Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED</flag>
+        </keyFunction>
+        
+        <keyFunction>
+            <keyName>OneKeyLogCollectionActivity</keyName>
+            <keyValue>24,21,21,22,22,24</keyValue>
+            <event>startActivity</event>
+            <packageName>com.fiberhome.fhremotedebugserver</packageName>
+            <className>com.fiberhome.fhremotedebugserver.activity.OneKeyLogCollectionActivity</className>
+            <action>android.intent.action.MAIN</action>
+            <flag>Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED</flag>
+        </keyFunction>
+    </keyType>
+   
+   <keyType name="singlekey"> 
+        <keyFunction>
+            <keyName>Settings</keyName>
+            <keyValue>176</keyValue>
+            <keyDownUp>1</keyDownUp> 
+            <dispatch>-1</dispatch>
+            <event>startActivity</event>
+            <packageName>tv.icntv.vendor</packageName>
+            <className>tv.icntv.vendor.main</className>
+            <flag>Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED</flag>
+        </keyFunction>
+        
+        <keyFunction>
+            <keyName>HOME</keyName>
+            <keyValue>3</keyValue>
+            <keyDownUp>1</keyDownUp> 
+            <dispatch>-1</dispatch>
+            <event>startActivity</event>
+            <packageName>com.dangbei.tvlauncher</packageName>
+            <className>com.dangbei.tvlauncher.IndexActivity</className>
+            <flag>Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED</flag>
+        </keyFunction>
+    </keyType>
+</keyFunctions>

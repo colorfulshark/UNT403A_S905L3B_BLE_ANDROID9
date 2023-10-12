@@ -1,0 +1,1149 @@
+vendor/app 0 2000 0755
+vendor/app/AppInstaller 0 2000 0755
+vendor/app/AppInstaller/AppInstaller.apk 0 0 0644
+vendor/app/BluetoothRemote 0 2000 0755
+vendor/app/BluetoothRemote/BluetoothRemote.apk 0 0 0644
+vendor/app/FileBrowser 0 2000 0755
+vendor/app/FileBrowser/FileBrowser.apk 0 0 0644
+vendor/app/RemoteIME 0 2000 0755
+vendor/app/RemoteIME/RemoteIME.apk 0 0 0644
+vendor/app/VideoPlayer 0 2000 0755
+vendor/app/VideoPlayer/VideoPlayer.apk 0 0 0644
+vendor/app/VideoPlayer/lib 0 2000 0755
+vendor/app/VideoPlayer/lib/arm 0 2000 0755
+vendor/app/VideoPlayer/lib/arm/libsubtitlemanager_jni.so 0 0 0644 /vendor/lib/libsubtitlemanager_jni.so
+vendor/bin 0 2000 0755
+vendor/bin/DecInfo_test 0 2000 0755
+vendor/bin/acpi 0 2000 0755 toybox_vendor
+vendor/bin/awk 0 2000 0755
+vendor/bin/base64 0 2000 0755 toybox_vendor
+vendor/bin/basename 0 2000 0755 toybox_vendor
+vendor/bin/bdt_unisoc 0 2000 0755
+vendor/bin/blockdev 0 2000 0755 toybox_vendor
+vendor/bin/cal 0 2000 0755 toybox_vendor
+vendor/bin/cat 0 2000 0755 toybox_vendor
+vendor/bin/chcon 0 2000 0755 toybox_vendor
+vendor/bin/chgrp 0 2000 0755 toybox_vendor
+vendor/bin/chmod 0 2000 0755 toybox_vendor
+vendor/bin/chown 0 2000 0755 toybox_vendor
+vendor/bin/chroot 0 2000 0755 toybox_vendor
+vendor/bin/chrt 0 2000 0755 toybox_vendor
+vendor/bin/cksum 0 2000 0755 toybox_vendor
+vendor/bin/clear 0 2000 0755 toybox_vendor
+vendor/bin/cmp 0 2000 0755 toybox_vendor
+vendor/bin/comm 0 2000 0755 toybox_vendor
+vendor/bin/cp 0 2000 0755 toybox_vendor
+vendor/bin/cpio 0 2000 0755 toybox_vendor
+vendor/bin/cut 0 2000 0755 toybox_vendor
+vendor/bin/date 0 2000 0755 toybox_vendor
+vendor/bin/dd 0 2000 0755 toolbox
+vendor/bin/df 0 2000 0755 toybox_vendor
+vendor/bin/diff 0 2000 0755 toybox_vendor
+vendor/bin/dirname 0 2000 0755 toybox_vendor
+vendor/bin/dmesg 0 2000 0755 toybox_vendor
+vendor/bin/dos2unix 0 2000 0755 toybox_vendor
+vendor/bin/droidvold 0 2000 0755
+vendor/bin/du 0 2000 0755 toybox_vendor
+vendor/bin/echo 0 2000 0755 toybox_vendor
+vendor/bin/egrep 0 2000 0755 grep
+vendor/bin/env 0 2000 0755 toybox_vendor
+vendor/bin/esplayer 0 2000 0755
+vendor/bin/expand 0 2000 0755 toybox_vendor
+vendor/bin/expr 0 2000 0755 toybox_vendor
+vendor/bin/fallocate 0 2000 0755 toybox_vendor
+vendor/bin/false 0 2000 0755 toybox_vendor
+vendor/bin/fgrep 0 2000 0755 grep
+vendor/bin/file 0 2000 0755 toybox_vendor
+vendor/bin/find 0 2000 0755 toybox_vendor
+vendor/bin/flock 0 2000 0755 toybox_vendor
+vendor/bin/fmt 0 2000 0755 toybox_vendor
+vendor/bin/free 0 2000 0755 toybox_vendor
+vendor/bin/getenforce 0 2000 0755 toybox_vendor
+vendor/bin/getevent 0 2000 0755 toolbox
+vendor/bin/getprop 0 2000 0755 toolbox
+vendor/bin/grep 0 2000 0755
+vendor/bin/groups 0 2000 0755 toybox_vendor
+vendor/bin/gunzip 0 2000 0755 toybox_vendor
+vendor/bin/gzip 0 2000 0755 toybox_vendor
+vendor/bin/hdmicecd 0 2000 0755
+vendor/bin/head 0 2000 0755 toybox_vendor
+vendor/bin/hostapd_cli 0 2000 0755
+vendor/bin/hostname 0 2000 0755 toybox_vendor
+vendor/bin/hw 0 2000 0755
+vendor/bin/hw/android.hardware.audio@2.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.bluetooth@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.camera.provider@2.4-service 0 2000 0755
+vendor/bin/hw/android.hardware.cas@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.configstore@1.1-service 0 2000 0755
+vendor/bin/hw/android.hardware.drm@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.drm@1.1-service.clearkey 0 2000 0755
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine 0 2000 0755
+vendor/bin/hw/android.hardware.dumpstate@1.0-service.droidlogic 0 2000 0755
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.graphics.allocator@2.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.graphics.composer@2.2-service 0 2000 0755
+vendor/bin/hw/android.hardware.health@2.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.health@2.0-service.override 0 2000 0755
+vendor/bin/hw/android.hardware.ir@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.keymaster@3.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.light@2.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.media.omx@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.memtrack@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.power@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.thermal@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.tv.cec@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.usb@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.wifi@1.0-service 0 2000 0755
+vendor/bin/hw/hostapd 0 2000 0755
+vendor/bin/hw/subtitleserver 0 2000 0755
+vendor/bin/hw/wpa_supplicant 0 2000 0755
+vendor/bin/hwclock 0 2000 0755 toybox_vendor
+vendor/bin/id 0 2000 0755 toybox_vendor
+vendor/bin/ifconfig 0 2000 0755 toybox_vendor
+vendor/bin/inotifyd 0 2000 0755 toybox_vendor
+vendor/bin/insmod 0 2000 0755 toybox_vendor
+vendor/bin/ionice 0 2000 0755 toybox_vendor
+vendor/bin/iorenice 0 2000 0755 toybox_vendor
+vendor/bin/iwnpi 0 2000 0755
+vendor/bin/iwpriv 0 2000 0755
+vendor/bin/kill 0 2000 0755 toybox_vendor
+vendor/bin/killall 0 2000 0755 toybox_vendor
+vendor/bin/ln 0 2000 0755 toybox_vendor
+vendor/bin/load_policy 0 2000 0755 toybox_vendor
+vendor/bin/log 0 2000 0755 toybox_vendor
+vendor/bin/logname 0 2000 0755 toybox_vendor
+vendor/bin/logwrapper 0 2000 0755
+vendor/bin/losetup 0 2000 0755 toybox_vendor
+vendor/bin/ls 0 2000 0755 toybox_vendor
+vendor/bin/lsmod 0 2000 0755 toybox_vendor
+vendor/bin/lsof 0 2000 0755 toybox_vendor
+vendor/bin/lspci 0 2000 0755 toybox_vendor
+vendor/bin/lsusb 0 2000 0755 toybox_vendor
+vendor/bin/lsusb2 0 2000 0755
+vendor/bin/md5sum 0 2000 0755 toybox_vendor
+vendor/bin/meson_display_client 0 2000 0755
+vendor/bin/microcom 0 2000 0755 toybox_vendor
+vendor/bin/miracast_hdcp2 0 2000 0755
+vendor/bin/mkdir 0 2000 0755 toybox_vendor
+vendor/bin/mkfifo 0 2000 0755 toybox_vendor
+vendor/bin/mknod 0 2000 0755 toybox_vendor
+vendor/bin/mkswap 0 2000 0755 toybox_vendor
+vendor/bin/mktemp 0 2000 0755 toybox_vendor
+vendor/bin/modinfo 0 2000 0755 toybox_vendor
+vendor/bin/modprobe 0 2000 0755 toybox_vendor
+vendor/bin/more 0 2000 0755 toybox_vendor
+vendor/bin/mount 0 2000 0755 toybox_vendor
+vendor/bin/mountpoint 0 2000 0755 toybox_vendor
+vendor/bin/mv 0 2000 0755 toybox_vendor
+vendor/bin/netstat 0 2000 0755 toybox_vendor
+vendor/bin/newfs_msdos 0 2000 0755 toolbox
+vendor/bin/nice 0 2000 0755 toybox_vendor
+vendor/bin/nl 0 2000 0755 toybox_vendor
+vendor/bin/nohup 0 2000 0755 toybox_vendor
+vendor/bin/od 0 2000 0755 toybox_vendor
+vendor/bin/oemcrypto_test_aml 0 2000 0755
+vendor/bin/paste 0 2000 0755 toybox_vendor
+vendor/bin/patch 0 2000 0755 toybox_vendor
+vendor/bin/pgrep 0 2000 0755 toybox_vendor
+vendor/bin/pidof 0 2000 0755 toybox_vendor
+vendor/bin/pkill 0 2000 0755 toybox_vendor
+vendor/bin/pmap 0 2000 0755 toybox_vendor
+vendor/bin/printenv 0 2000 0755 toybox_vendor
+vendor/bin/printf 0 2000 0755 toybox_vendor
+vendor/bin/ps 0 2000 0755 toybox_vendor
+vendor/bin/pwd 0 2000 0755 toybox_vendor
+vendor/bin/readlink 0 2000 0755 toybox_vendor
+vendor/bin/realpath 0 2000 0755 toybox_vendor
+vendor/bin/remotecfg 0 2000 0755
+vendor/bin/remotecfg.sh 0 2000 0755
+vendor/bin/renice 0 2000 0755 toybox_vendor
+vendor/bin/restorecon 0 2000 0755 toybox_vendor
+vendor/bin/rm 0 2000 0755 toybox_vendor
+vendor/bin/rmdir 0 2000 0755 toybox_vendor
+vendor/bin/rmmod 0 2000 0755 toybox_vendor
+vendor/bin/rtkcmd 0 2000 0755
+vendor/bin/rtlbtmp 0 2000 0755
+vendor/bin/rtlbtmp_clt 0 2000 0755
+vendor/bin/rtlbtmp_skt 0 2000 0755
+vendor/bin/runcon 0 2000 0755 toybox_vendor
+vendor/bin/secmem_test 0 2000 0755
+vendor/bin/sed 0 2000 0755 toybox_vendor
+vendor/bin/sendevent 0 2000 0755 toybox_vendor
+vendor/bin/seq 0 2000 0755 toybox_vendor
+vendor/bin/setenforce 0 2000 0755 toybox_vendor
+vendor/bin/setprop 0 2000 0755 toybox_vendor
+vendor/bin/setsid 0 2000 0755 toybox_vendor
+vendor/bin/sh 0 2000 0755
+vendor/bin/sha1sum 0 2000 0755 toybox_vendor
+vendor/bin/sha224sum 0 2000 0755 toybox_vendor
+vendor/bin/sha256sum 0 2000 0755 toybox_vendor
+vendor/bin/sha384sum 0 2000 0755 toybox_vendor
+vendor/bin/sha512sum 0 2000 0755 toybox_vendor
+vendor/bin/sleep 0 2000 0755 toybox_vendor
+vendor/bin/sort 0 2000 0755 toybox_vendor
+vendor/bin/split 0 2000 0755 toybox_vendor
+vendor/bin/start 0 2000 0755 toybox_vendor
+vendor/bin/stat 0 2000 0755 toybox_vendor
+vendor/bin/stop 0 2000 0755 toybox_vendor
+vendor/bin/strings 0 2000 0755 toybox_vendor
+vendor/bin/stty 0 2000 0755 toybox_vendor
+vendor/bin/swapoff 0 2000 0755 toybox_vendor
+vendor/bin/swapon 0 2000 0755 toybox_vendor
+vendor/bin/sync 0 2000 0755 toybox_vendor
+vendor/bin/sysctl 0 2000 0755 toybox_vendor
+vendor/bin/systemcontrol 0 2000 0755
+vendor/bin/tac 0 2000 0755 toybox_vendor
+vendor/bin/tail 0 2000 0755 toybox_vendor
+vendor/bin/tar 0 2000 0755 toybox_vendor
+vendor/bin/taskset 0 2000 0755 toybox_vendor
+vendor/bin/tee 0 2000 0755 toybox_vendor
+vendor/bin/time 0 2000 0755 toybox_vendor
+vendor/bin/timeout 0 2000 0755 toybox_vendor
+vendor/bin/toolbox 0 2000 0755
+vendor/bin/top 0 2000 0755 toybox_vendor
+vendor/bin/touch 0 2000 0755 toybox_vendor
+vendor/bin/toybox_vendor 0 2000 0755
+vendor/bin/tr 0 2000 0755 toybox_vendor
+vendor/bin/true 0 2000 0755 toybox_vendor
+vendor/bin/truncate 0 2000 0755 toybox_vendor
+vendor/bin/tty 0 2000 0755 toybox_vendor
+vendor/bin/ulimit 0 2000 0755 toybox_vendor
+vendor/bin/umount 0 2000 0755 toybox_vendor
+vendor/bin/uname 0 2000 0755 toybox_vendor
+vendor/bin/uniq 0 2000 0755 toybox_vendor
+vendor/bin/unix2dos 0 2000 0755 toybox_vendor
+vendor/bin/upgradeserver 0 2000 0755
+vendor/bin/uptime 0 2000 0755 toybox_vendor
+vendor/bin/usleep 0 2000 0755 toybox_vendor
+vendor/bin/uudecode 0 2000 0755 toybox_vendor
+vendor/bin/uuencode 0 2000 0755 toybox_vendor
+vendor/bin/vesplayer 0 2000 0755
+vendor/bin/vmstat 0 2000 0755 toybox_vendor
+vendor/bin/vndservice 0 2000 0755
+vendor/bin/vndservicemanager 0 2000 0755
+vendor/bin/wc 0 2000 0755 toybox_vendor
+vendor/bin/which 0 2000 0755 toybox_vendor
+vendor/bin/whoami 0 2000 0755 toybox_vendor
+vendor/bin/wifi_preload 0 2000 0755
+vendor/bin/wpa_cli 0 2000 0755
+vendor/bin/xargs 0 2000 0755 toybox_vendor
+vendor/bin/xxd 0 2000 0755 toybox_vendor
+vendor/bin/yes 0 2000 0755 toybox_vendor
+vendor/bin/zcat 0 2000 0755 toybox_vendor
+vendor/build.prop 0 0 0600
+vendor/default.prop 0 0 0600
+vendor/default_stb.prop 0 0 0644
+vendor/default_stb_lc.prop 0 0 0644
+vendor/etc 0 2000 0755
+vendor/etc/NOTICE.xml.gz 0 0 0644
+vendor/etc/a2dp_audio_policy_configuration.xml 0 0 0644
+vendor/etc/audio_effects.conf 0 0 0644
+vendor/etc/audio_effects.xml 0 0 0644
+vendor/etc/audio_policy_configuration.xml 0 0 0644
+vendor/etc/audio_policy_configuration_dolby_ms12.xml 0 0 0644
+vendor/etc/audio_policy_volumes.xml 0 0 0644
+vendor/etc/bluetooth 0 2000 0755
+vendor/etc/bluetooth/4343.hcd 0 0 0644
+vendor/etc/bluetooth/BCM20702.hcd 0 0 0644
+vendor/etc/bluetooth/BCM20703A2.hcd 0 0 0644
+vendor/etc/bluetooth/BCM2076.hcd 0 0 0644
+vendor/etc/bluetooth/BCM4330.hcd 0 0 0644
+vendor/etc/bluetooth/BCM43430B0.hcd 0 0 0644
+vendor/etc/bluetooth/BCM4345C0.hcd 0 0 0644
+vendor/etc/bluetooth/BCM4345C5.hcd 0 0 0644
+vendor/etc/bluetooth/BCM4350.hcd 0 0 0644
+vendor/etc/bluetooth/BCM4354.hcd 0 0 0644
+vendor/etc/bluetooth/BCM4359C0.hcd 0 0 0644
+vendor/etc/bluetooth/BCM4362A2.hcd 0 0 0644
+vendor/etc/bluetooth/BCM43751.hcd 0 0 0644
+vendor/etc/bluetooth/auto_pairing.conf 0 0 0644
+vendor/etc/bluetooth/bcm43241b4.hcd 0 0 0644
+vendor/etc/bluetooth/bcm43341b0.hcd 0 0 0644
+vendor/etc/bluetooth/bcm4335c0.hcd 0 0 0644
+vendor/etc/bluetooth/bcm43569a2.hcd 0 0 0644
+vendor/etc/bluetooth/blacklist.conf 0 0 0644
+vendor/etc/bluetooth/bt_vendor.conf 0 0 0644
+vendor/etc/bluetooth/qca6174 0 2000 0755
+vendor/etc/bluetooth/qca6174/ar3k 0 2000 0755
+vendor/etc/bluetooth/qca6174/ar3k/nvm_tlv_3.2.bin 0 0 0644
+vendor/etc/bluetooth/qca6174/ar3k/rampatch_tlv_3.2.tlv 0 0 0644
+vendor/etc/bluetooth/qca9377 0 2000 0755
+vendor/etc/bluetooth/qca9377/ar3k 0 2000 0755
+vendor/etc/bluetooth/qca9377/ar3k/nvm_tlv_tf_1.1.bin 0 0 0644
+vendor/etc/bluetooth/qca9377/ar3k/rampatch_tlv_tf_1.1.tlv 0 0 0644
+vendor/etc/bluetooth/rtkbt.conf 0 0 0644
+vendor/etc/bluetooth/uwe562x 0 2000 0755
+vendor/etc/bluetooth/uwe562x/bt_configure_pskey.ini 0 0 0644
+vendor/etc/bluetooth/uwe562x/bt_configure_rf_marlin.ini 0 0 0644
+vendor/etc/bluetooth/uwe562x/bt_configure_rf_marlin3_2.ini 0 0 0644
+vendor/etc/bluetooth/uwe562x/bt_configure_rf_marlin3_3.ini 0 0 0644
+vendor/etc/bluetooth/uwe562x/bt_configure_rf_marlin3e_2.ini 0 0 0644
+vendor/etc/bluetooth/uwe562x/bt_configure_rf_marlin3e_3.ini 0 0 0644
+vendor/etc/bootvideo 0 0 0644
+vendor/etc/bootvideo.zip 0 0 0644
+vendor/etc/bt_configure_pskey.ini 0 0 0644
+vendor/etc/bt_configure_rf.ini 0 0 0644
+vendor/etc/default_volume_tables.xml 0 0 0644
+vendor/etc/default_wallpaper.png 0 0 0644
+vendor/etc/dhcpcd 0 2000 0755
+vendor/etc/dhcpcd/dhcpcd.conf 0 0 0644
+vendor/etc/fs_config_dirs 0 0 0000
+vendor/etc/fs_config_files 0 0 0000
+vendor/etc/fstab.amlogic 0 0 0644
+vendor/etc/hearing_aid_audio_policy_configuration.xml 0 0 0644
+vendor/etc/init 0 2000 0755
+vendor/etc/init/android.hardware.audio@2.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.bluetooth@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.camera.provider@2.4-service.rc 0 0 0644
+vendor/etc/init/android.hardware.cas@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.configstore@1.1-service.rc 0 0 0644
+vendor/etc/init/android.hardware.drm@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc 0 0 0644
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc 0 0 0644
+vendor/etc/init/android.hardware.dumpstate@1.0-service.droidlogic.rc 0 0 0644
+vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.graphics.composer@2.2-service.rc 0 0 0644
+vendor/etc/init/android.hardware.health@2.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.ir@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.keymaster@3.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.light@2.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.media.omx@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.memtrack@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.power@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.thermal@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.tv.cec@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.usb@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.wifi@1.0-service.rc 0 0 0644
+vendor/etc/init/hdmicecd.rc 0 0 0644
+vendor/etc/init/hostapd.android.rc 0 0 0644
+vendor/etc/init/hw 0 2000 0755
+vendor/etc/init/hw/init.amlogic.bluetooth.rc 0 0 0644
+vendor/etc/init/hw/init.amlogic.board.rc 0 0 0644
+vendor/etc/init/hw/init.amlogic.common.rc 0 0 0644
+vendor/etc/init/hw/init.amlogic.media.rc 0 0 0644
+vendor/etc/init/hw/init.amlogic.mobile.rc 0 0 0644
+vendor/etc/init/hw/init.amlogic.rc 0 0 0644
+vendor/etc/init/hw/init.amlogic.tb_detect.rc 0 0 0644
+vendor/etc/init/hw/init.amlogic.usb.rc 0 0 0644
+vendor/etc/init/hw/init.amlogic.wifi.rc 0 0 0644
+vendor/etc/init/hw/init.amlogic.wifi_buildin.rc 0 0 0644
+vendor/etc/init/init.hbg.remote.rc 0 0 0644
+vendor/etc/init/miracast_hdcp2.rc 0 0 0644
+vendor/etc/init/subtitleserver.rc 0 0 0644
+vendor/etc/init/systemcontrol.rc 0 0 0644
+vendor/etc/init/vndservicemanager.rc 0 0 0644
+vendor/etc/init/wifi_preload.rc 0 0 0644
+vendor/etc/lowmemorykiller.txt 0 0 0644
+vendor/etc/lowmemorykiller_2G.txt 0 0 0644
+vendor/etc/lowmemorykiller_512M.txt 0 0 0644
+vendor/etc/media_codecs.xml 0 0 0644
+vendor/etc/media_codecs_ext.xml 0 0 0644
+vendor/etc/media_codecs_performance.xml 0 0 0644
+vendor/etc/media_profiles.xml 0 0 0644
+vendor/etc/media_profiles_V1_0.xml 0 0 0644
+vendor/etc/mesondisplay.cfg 0 0 0644
+vendor/etc/mixer_paths.xml 0 0 0644
+vendor/etc/mkshrc 0 0 0644
+vendor/etc/msd_audio_policy_configuration.xml 0 0 0644
+vendor/etc/permissions 0 2000 0755
+vendor/etc/permissions/android.hardware.audio.output.xml 0 0 0644
+vendor/etc/permissions/android.hardware.bluetooth.xml 0 0 0644
+vendor/etc/permissions/android.hardware.bluetooth_le.xml 0 0 0644
+vendor/etc/permissions/android.hardware.camera.external.xml 0 0 0644
+vendor/etc/permissions/android.hardware.consumerir.xml 0 0 0644
+vendor/etc/permissions/android.hardware.ethernet.xml 0 0 0644
+vendor/etc/permissions/android.hardware.hdmi.cec.xml 0 0 0644
+vendor/etc/permissions/android.hardware.location.xml 0 0 0644
+vendor/etc/permissions/android.hardware.usb.accessory.xml 0 0 0644
+vendor/etc/permissions/android.hardware.usb.host.xml 0 0 0644
+vendor/etc/permissions/android.hardware.wifi.direct.xml 0 0 0644
+vendor/etc/permissions/android.hardware.wifi.xml 0 0 0644
+vendor/etc/permissions/android.software.app_widgets.xml 0 0 0644
+vendor/etc/permissions/android.software.backup.xml 0 0 0644
+vendor/etc/permissions/android.software.device_admin.xml 0 0 0644
+vendor/etc/permissions/droidlogic.software.core.xml 0 0 0644
+vendor/etc/permissions/droidlogic.tv.software.core.xml 0 0 0644
+vendor/etc/public.libraries.txt 0 0 0644
+vendor/etc/r_submix_audio_policy_configuration.xml 0 0 0644
+vendor/etc/remote.cfg 0 0 0644
+vendor/etc/remote.tab1 0 0 0644
+vendor/etc/remote.tab2 0 0 0644
+vendor/etc/remote.tab3 0 0 0644
+vendor/etc/remote.tab4 0 0 0644
+vendor/etc/remote.txt 0 0 0644
+vendor/etc/seccomp_policy 0 2000 0755
+vendor/etc/seccomp_policy/mediacodec.policy 0 0 0644
+vendor/etc/seccomp_policy/mediaextractor.policy 0 0 0644
+vendor/etc/selinux 0 2000 0755
+vendor/etc/selinux/plat_pub_versioned.cil 0 0 0644
+vendor/etc/selinux/plat_sepolicy_vers.txt 0 0 0644
+vendor/etc/selinux/vendor_file_contexts 0 0 0644
+vendor/etc/selinux/vendor_hwservice_contexts 0 0 0644
+vendor/etc/selinux/vendor_mac_permissions.xml 0 0 0644
+vendor/etc/selinux/vendor_property_contexts 0 0 0644
+vendor/etc/selinux/vendor_seapp_contexts 0 0 0644
+vendor/etc/selinux/vendor_sepolicy.cil 0 0 0644
+vendor/etc/selinux/vndservice_contexts 0 0 0644
+vendor/etc/tvconfig 0 2000 0755
+vendor/etc/tvconfig/audio 0 2000 0755
+vendor/etc/tvconfig/audio/AMLOGIC_AUDIO_EFFECT_t962x_r311_FHD.ini 0 0 0644
+vendor/etc/tvconfig/audio/AMLOGIC_SOC_t962x_r311_FHD.ini 0 0 0644
+vendor/etc/tvconfig/audio/EXT_AMP_t962x_r311_FHD.ini 0 0 0644
+vendor/etc/tvconfig/dtvkit 0 2000 0755
+vendor/etc/tvconfig/dtvkit/config.xml 0 0 0644
+vendor/etc/tvconfig/hdmi 0 2000 0755
+vendor/etc/tvconfig/hdmi/port_14.bin 0 0 0644
+vendor/etc/tvconfig/hdmi/port_20.bin 0 0 0644
+vendor/etc/tvconfig/model 0 2000 0755
+vendor/etc/tvconfig/model/model_sum.ini 0 0 0644
+vendor/etc/tvconfig/panel 0 2000 0755
+vendor/etc/tvconfig/panel/lvds_fhd.ini 0 0 0644
+vendor/etc/tvconfig/panel/lvds_hd.ini 0 0 0644
+vendor/etc/tvconfig/panel/lvds_hdmi.ini 0 0 0644
+vendor/etc/tvconfig/panel/vbyone_1region.ini 0 0 0644
+vendor/etc/tvconfig/panel/vbyone_1region_3d_disable.ini 0 0 0644
+vendor/etc/tvconfig/panel/vbyone_1region_i2c.ini 0 0 0644
+vendor/etc/tvconfig/panel/vbyone_2region.ini 0 0 0644
+vendor/etc/tvconfig/panel/vbyone_2region_iw7027.ini 0 0 0644
+vendor/etc/tvconfig/panel/vbyone_2region_ldim.ini 0 0 0644
+vendor/etc/tvconfig/panel/vbyone_hdmi.ini 0 0 0644
+vendor/etc/tvconfig/pq 0 2000 0755
+vendor/etc/tvconfig/pq/pq.db 0 0 0644
+vendor/etc/tvconfig/pq/pq_default.ini 0 0 0644
+vendor/etc/tvconfig/tv_default.cfg 0 0 0644
+vendor/etc/tvconfig/tv_default.xml 0 0 0644
+vendor/etc/tvconfig/tv_rrt_define.xml 0 0 0644
+vendor/etc/tvconfig/tv_setting_config.cfg 0 0 0644
+vendor/etc/tvconfig/tvconfig.conf 0 0 0644
+vendor/etc/tvconfig/tvscan.conf 0 0 0644
+vendor/etc/usb_audio_policy_configuration.xml 0 0 0644
+vendor/etc/vintf 0 2000 0755
+vendor/etc/vintf/compatibility_matrix.xml 0 0 0644
+vendor/etc/vintf/manifest.xml 0 0 0644
+vendor/etc/wifi 0 2000 0755
+vendor/etc/wifi/43458 0 2000 0755
+vendor/etc/wifi/43458/config.txt 0 0 0644
+vendor/etc/wifi/43458/fw_bcm43455c0_ag.bin 0 0 0644
+vendor/etc/wifi/43458/fw_bcm43455c0_ag_apsta.bin 0 0 0644
+vendor/etc/wifi/43458/fw_bcm43455c0_ag_p2p.bin 0 0 0644
+vendor/etc/wifi/43458/nvram_43458.txt 0 0 0644
+vendor/etc/wifi/4354 0 2000 0755
+vendor/etc/wifi/4354/config.txt 0 0 0644
+vendor/etc/wifi/4354/fw_bcm4354a1_ag.bin 0 0 0644
+vendor/etc/wifi/4354/fw_bcm4354a1_ag_apsta.bin 0 0 0644
+vendor/etc/wifi/4354/fw_bcm4354a1_ag_p2p.bin 0 0 0644
+vendor/etc/wifi/4354/nvram_ap6354.txt 0 0 0644
+vendor/etc/wifi/4356 0 2000 0755
+vendor/etc/wifi/4356/config.txt 0 0 0644
+vendor/etc/wifi/4356/fw_bcm4356a2_ag.bin 0 0 0644
+vendor/etc/wifi/4356/fw_bcm4356a2_ag_apsta.bin 0 0 0644
+vendor/etc/wifi/4356/fw_bcm4356a2_ag_p2p.bin 0 0 0644
+vendor/etc/wifi/4356/nvram_ap6356.txt 0 0 0644
+vendor/etc/wifi/43569 0 2000 0755
+vendor/etc/wifi/43569/fw_bcm43569a2_ag.bin.trx 0 0 0644
+vendor/etc/wifi/43569/fw_bcm4358u_ag.bin 0 0 0644
+vendor/etc/wifi/43569/fw_bcm4358u_ag_apsta.bin 0 0 0644
+vendor/etc/wifi/43569/fw_bcm4358u_ag_p2p.bin 0 0 0644
+vendor/etc/wifi/43569/nvram_ap6269a2.nvm 0 0 0644
+vendor/etc/wifi/43569/nvram_ap62x8.txt 0 0 0644
+vendor/etc/wifi/4358 0 2000 0755
+vendor/etc/wifi/4358/config.txt 0 0 0644
+vendor/etc/wifi/4358/fw_bcm4358_ag.bin 0 0 0644
+vendor/etc/wifi/4358/fw_bcm4358_ag_apsta.bin 0 0 0644
+vendor/etc/wifi/4358/fw_bcm4358_ag_p2p.bin 0 0 0644
+vendor/etc/wifi/4358/nvram_4358.txt 0 0 0644
+vendor/etc/wifi/4359 0 2000 0755
+vendor/etc/wifi/4359/fw_bcm4359c0_ag.bin 0 0 0644
+vendor/etc/wifi/4359/fw_bcm4359c0_ag_apsta.bin 0 0 0644
+vendor/etc/wifi/4359/fw_bcm4359c0_ag_p2p.bin 0 0 0644
+vendor/etc/wifi/4359/nvram_ap6398s.txt 0 0 0644
+vendor/etc/wifi/43752a2 0 2000 0755
+vendor/etc/wifi/43752a2/clm_bcm43752a2_pcie_ag.blob 0 0 0644
+vendor/etc/wifi/43752a2/fw_bcm43752a2_ag.bin 0 0 0644
+vendor/etc/wifi/43752a2/fw_bcm43752a2_ag_apsta.bin 0 0 0644
+vendor/etc/wifi/43752a2/fw_bcm43752a2_ag_p2p.bin 0 0 0644
+vendor/etc/wifi/43752a2/fw_bcm43752a2_pcie_ag.bin 0 0 0644
+vendor/etc/wifi/43752a2/fw_bcm43752a2_pcie_ag_apsta.bin 0 0 0644
+vendor/etc/wifi/43752a2/nvram_ap6275p.txt 0 0 0644
+vendor/etc/wifi/43752a2/nvram_ap6275s.txt 0 0 0644
+vendor/etc/wifi/6212 0 2000 0755
+vendor/etc/wifi/6212/config.txt 0 0 0644
+vendor/etc/wifi/6212/fw_bcm43436b0.bin 0 0 0644
+vendor/etc/wifi/6212/fw_bcm43436b0_apsta.bin 0 0 0644
+vendor/etc/wifi/6212/fw_bcm43438a0.bin 0 0 0644
+vendor/etc/wifi/6212/fw_bcm43438a0_apsta.bin 0 0 0644
+vendor/etc/wifi/6212/fw_bcm43438a0_p2p.bin 0 0 0644
+vendor/etc/wifi/6212/nvram.txt 0 0 0644
+vendor/etc/wifi/6212/nvram_ap6236.txt 0 0 0644
+vendor/etc/wifi/6255 0 2000 0755
+vendor/etc/wifi/6255/config.txt 0 0 0644
+vendor/etc/wifi/6255/fw_bcm43455c0_ag.bin 0 0 0644
+vendor/etc/wifi/6255/fw_bcm43455c0_ag_apsta.bin 0 0 0644
+vendor/etc/wifi/6255/fw_bcm43455c0_ag_p2p.bin 0 0 0644
+vendor/etc/wifi/6255/fw_bcm43456c5_ag.bin 0 0 0644
+vendor/etc/wifi/6255/fw_bcm43456c5_ag_apsta.bin 0 0 0644
+vendor/etc/wifi/6255/nvram_ap6255.txt 0 0 0644
+vendor/etc/wifi/6255/nvram_ap6256.txt 0 0 0644
+vendor/etc/wifi/62x2 0 2000 0755
+vendor/etc/wifi/62x2/config.txt 0 0 0644
+vendor/etc/wifi/62x2/fw_bcm43241b4_ag.bin 0 0 0644
+vendor/etc/wifi/62x2/fw_bcm43241b4_ag_apsta.bin 0 0 0644
+vendor/etc/wifi/62x2/fw_bcm43241b4_ag_p2p.bin 0 0 0644
+vendor/etc/wifi/62x2/nvram.txt 0 0 0644
+vendor/etc/wifi/6335 0 2000 0755
+vendor/etc/wifi/6335/config.txt 0 0 0644
+vendor/etc/wifi/6335/fw_bcm4339a0_ag.bin 0 0 0644
+vendor/etc/wifi/6335/fw_bcm4339a0_ag_apsta.bin 0 0 0644
+vendor/etc/wifi/6335/fw_bcm4339a0_ag_p2p.bin 0 0 0644
+vendor/etc/wifi/6335/nvram_ap6335.txt 0 0 0644
+vendor/etc/wifi/AP6271 0 2000 0755
+vendor/etc/wifi/AP6271/clm_bcm43751a1_ag.blob 0 0 0644
+vendor/etc/wifi/AP6271/fw_bcm43751a1_ag.bin 0 0 0644
+vendor/etc/wifi/AP6271/fw_bcm43751a1_ag_apsta.bin 0 0 0644
+vendor/etc/wifi/AP6271/nvram_ap6271s.txt 0 0 0644
+vendor/etc/wifi/RT2870STA_7603.dat 0 0 0644
+vendor/etc/wifi/bcm_supplicant.conf 0 0 0644
+vendor/etc/wifi/bcm_supplicant_overlay.conf 0 0 0644
+vendor/etc/wifi/p2p_supplicant.conf 0 0 0644
+vendor/etc/wifi/p2p_supplicant_overlay.conf 0 0 0644
+vendor/etc/wifi/qca6174 0 2000 0755
+vendor/etc/wifi/qca6174/athwlan.bin 0 0 0644
+vendor/etc/wifi/qca6174/bdwlan30.bin 0 0 0644
+vendor/etc/wifi/qca6174/otp30.bin 0 0 0644
+vendor/etc/wifi/qca6174/qwlan30.bin 0 0 0644
+vendor/etc/wifi/qca6174/utf30.bin 0 0 0644
+vendor/etc/wifi/qca6174/wlan 0 2000 0755
+vendor/etc/wifi/qca6174/wlan/cfg.dat 0 0 0644
+vendor/etc/wifi/qca6174/wlan/qcom_cfg.ini 0 0 0644
+vendor/etc/wifi/qca6174/wlan/qcom_cfg.ini.ok 0 0 0644
+vendor/etc/wifi/qca9377 0 2000 0755
+vendor/etc/wifi/qca9377/bdwlan30.bin 0 0 0644
+vendor/etc/wifi/qca9377/otp30.bin 0 0 0644
+vendor/etc/wifi/qca9377/qwlan30.bin 0 0 0644
+vendor/etc/wifi/qca9377/utf30.bin 0 0 0644
+vendor/etc/wifi/qca9377/wlan 0 2000 0755
+vendor/etc/wifi/qca9377/wlan/cfg.dat 0 0 0644
+vendor/etc/wifi/qca9377/wlan/qcom_cfg.ini 0 0 0644
+vendor/etc/wifi/qca9377/wlan/qcom_wlan_nv.bin 0 0 0644
+vendor/etc/wifi/qca9379 0 2000 0755
+vendor/etc/wifi/qca9379/athwlan.bin 0 0 0644
+vendor/etc/wifi/qca9379/fakeboar.bin 0 0 0644
+vendor/etc/wifi/qca9379/otp.bin 0 0 0644
+vendor/etc/wifi/qca9379/utf.bin 0 0 0644
+vendor/etc/wifi/qca9379/wlan 0 2000 0755
+vendor/etc/wifi/qca9379/wlan/cfg.dat 0 0 0644
+vendor/etc/wifi/qca9379/wlan/qcom_cfg.ini 0 0 0644
+vendor/etc/wifi/ssv6051 0 2000 0755
+vendor/etc/wifi/ssv6051/ssv6051-sw.bin 0 0 0644
+vendor/etc/wifi/ssv6051/ssv6051-wifi.cfg 0 0 0644
+vendor/etc/wifi/ssv6x5x 0 2000 0755
+vendor/etc/wifi/ssv6x5x/ssv6x5x-sw.bin 0 0 0644
+vendor/etc/wifi/ssv6x5x/ssv6x5x-wifi.cfg 0 0 0644
+vendor/etc/wifi/uwe5621 0 2000 0755
+vendor/etc/wifi/uwe5621/wifi_23550001_2ant.ini 0 0 0644
+vendor/etc/wifi/uwe5621/wifi_23550001_3ant.ini 0 0 0644
+vendor/etc/wifi/uwe5621/wifi_23550002_2ant.ini 0 0 0644
+vendor/etc/wifi/uwe5621/wifi_23550002_3ant.ini 0 0 0644
+vendor/etc/wifi/uwe5621/wifi_23550003_2ant.ini 0 0 0644
+vendor/etc/wifi/uwe5621/wifi_23550003_3ant.ini 0 0 0644
+vendor/etc/wifi/uwe5621/wifi_56630000_2ant.ini 0 0 0644
+vendor/etc/wifi/uwe5621/wifi_56630000_3ant.ini 0 0 0644
+vendor/etc/wifi/uwe5621/wifi_56630001_2ant.ini 0 0 0644
+vendor/etc/wifi/uwe5621/wifi_56630001_3ant.ini 0 0 0644
+vendor/etc/wifi/wpa_supplicant.conf 0 0 0644
+vendor/etc/wifi/wpa_supplicant_overlay.conf 0 0 0644
+vendor/firmware 0 2000 0755
+vendor/firmware/BT_RAM_CODE_MT7961_1_1_hdr.bin 0 0 0644
+vendor/firmware/BT_RAM_CODE_MT7961_1_1_sec_hdr.bin 0 0 0644
+vendor/firmware/BT_RAM_CODE_MT7961_1_2_hdr.bin 0 0 0644
+vendor/firmware/BT_RAM_CODE_MT7961_1a_1_hdr.bin 0 0 0644
+vendor/firmware/BT_RAM_CODE_MT7961_1a_1_sec_hdr.bin 0 0 0644
+vendor/firmware/BT_RAM_CODE_MT7961_1a_2_hdr.bin 0 0 0644
+vendor/firmware/EEPROM_MT7663.bin 0 0 0644
+vendor/firmware/EEPROM_MT7668.bin 0 0 0644
+vendor/firmware/EEPROM_MT7961_1a.bin 0 0 0644
+vendor/firmware/TxPwrLimit_MT76x3.dat 0 0 0644
+vendor/firmware/TxPwrLimit_MT76x8.dat 0 0 0644
+vendor/firmware/TxPwrLimit_MT79x1.dat 0 0 0644
+vendor/firmware/WIFI_MT7961_patch_mcu_1a_2_hdr.bin 0 0 0644
+vendor/firmware/WIFI_RAM_CODE2_SDIO_MT7668.bin 0 0 0644
+vendor/firmware/WIFI_RAM_CODE2_USB_MT7668.bin 0 0 0644
+vendor/firmware/WIFI_RAM_CODE_MT7663.bin 0 0 0644
+vendor/firmware/WIFI_RAM_CODE_MT7668.bin 0 0 0644
+vendor/firmware/WIFI_RAM_CODE_MT7961_1a.bin 0 0 0644
+vendor/firmware/bt.cfg 0 0 0644
+vendor/firmware/fw_usb.bin 0 0 0644
+vendor/firmware/mp_rtl8761b_fw 0 0 0644
+vendor/firmware/mp_rtl8761bt_config 0 0 0644
+vendor/firmware/mt7663_patch_e2_hdr.bin 0 0 0644
+vendor/firmware/mt7668_patch_e1_hdr.bin 0 0 0644
+vendor/firmware/mt7668_patch_e2_hdr.bin 0 0 0644
+vendor/firmware/qca9379 0 2000 0755
+vendor/firmware/qca9379/ar3k 0 2000 0755
+vendor/firmware/qca9379/ar3k/nvm_tlv_usb_npl_1.0.bin 0 0 0644
+vendor/firmware/qca9379/ar3k/rampatch_tlv_usb_npl_1.0.tlv 0 0 0644
+vendor/firmware/rtl8723b_config 0 0 0644
+vendor/firmware/rtl8723b_fw 0 0 0644
+vendor/firmware/rtl8723bs_VQ0_config 0 0 0644
+vendor/firmware/rtl8723bs_VQ0_fw 0 0 0644
+vendor/firmware/rtl8723bs_config 0 0 0644
+vendor/firmware/rtl8723bs_fw 0 0 0644
+vendor/firmware/rtl8723bu_config 0 0 0644
+vendor/firmware/rtl8723d_config 0 0 0644
+vendor/firmware/rtl8723d_fw 0 0 0644
+vendor/firmware/rtl8723ds_config 0 0 0644
+vendor/firmware/rtl8723ds_fw 0 0 0644
+vendor/firmware/rtl8761a_config 0 0 0644
+vendor/firmware/rtl8761a_fw 0 0 0644
+vendor/firmware/rtl8761at_config 0 0 0644
+vendor/firmware/rtl8761at_fw 0 0 0644
+vendor/firmware/rtl8761au8192ee_fw 0 0 0644
+vendor/firmware/rtl8761au8812ae_fw 0 0 0644
+vendor/firmware/rtl8761au_fw 0 0 0644
+vendor/firmware/rtl8761aw8192eu_config 0 0 0644
+vendor/firmware/rtl8761aw8192eu_fw 0 0 0644
+vendor/firmware/rtl8761b_config 0 0 0644
+vendor/firmware/rtl8761b_fw 0 0 0644
+vendor/firmware/rtl8761bt_config 0 0 0644
+vendor/firmware/rtl8761bt_fw 0 0 0644
+vendor/firmware/rtl8821a_config 0 0 0644
+vendor/firmware/rtl8821a_fw 0 0 0644
+vendor/firmware/rtl8821as_config 0 0 0644
+vendor/firmware/rtl8821as_fw 0 0 0644
+vendor/firmware/rtl8821c_config 0 0 0644
+vendor/firmware/rtl8821c_fw 0 0 0644
+vendor/firmware/rtl8821cs_config 0 0 0644
+vendor/firmware/rtl8821cs_fw 0 0 0644
+vendor/firmware/rtl8822b_config 0 0 0644
+vendor/firmware/rtl8822b_fw 0 0 0644
+vendor/firmware/rtl8822bs_config 0 0 0644
+vendor/firmware/rtl8822bs_fw 0 0 0644
+vendor/firmware/rtl8822c_config 0 0 0644
+vendor/firmware/rtl8822c_fw 0 0 0644
+vendor/firmware/rtl8822cs_config 0 0 0644
+vendor/firmware/rtl8822cs_fw 0 0 0644
+vendor/firmware/wifi.cfg 0 0 0644
+vendor/firmware/wifi_mt7661.cfg 0 0 0644
+vendor/firmware/wifi_mt7961.cfg 0 0 0644
+vendor/firmware/woble_setting.bin 0 0 0644
+vendor/firmware/woble_setting_7663.bin 0 0 0644
+vendor/framework 0 2000 0755
+vendor/framework/droidlogic-tv.jar 0 0 0644
+vendor/framework/droidlogic.jar 0 0 0644
+vendor/lib 0 2000 0755
+vendor/lib/camera.device@1.0-impl.so 0 0 0644
+vendor/lib/camera.device@3.2-impl.so 0 0 0644
+vendor/lib/camera.device@3.3-impl.so 0 0 0644
+vendor/lib/camera.device@3.4-external-impl.so 0 0 0644
+vendor/lib/camera.device@3.4-impl.so 0 0 0644
+vendor/lib/egl 0 2000 0755
+vendor/lib/egl/libGLES_mali.so 0 0 0644
+vendor/lib/firmware 0 2000 0755
+vendor/lib/firmware/video 0 2000 0755
+vendor/lib/firmware/video/h264_enc.bin 0 0 0644
+vendor/lib/firmware/video/video_ucode.bin 0 0 0644
+vendor/lib/hw 0 2000 0755
+vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.audio@4.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.drm@1.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so 0 0 0644
+vendor/lib/hw/android.hardware.ir@1.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.keymaster@3.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.light@2.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.memtrack@1.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.power@1.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.soundtrigger@2.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.thermal@1.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.tv.cec@1.0-impl.so 0 0 0644
+vendor/lib/hw/audio.primary.amlogic.so 0 0 0644
+vendor/lib/hw/audio.primary.default.so 0 0 0644
+vendor/lib/hw/audio.r_submix.default.so 0 0 0644
+vendor/lib/hw/audio.usb.default.so 0 0 0644
+vendor/lib/hw/btmp.default.so 0 0 0644
+vendor/lib/hw/camera.amlogic.so 0 0 0644
+vendor/lib/hw/consumerir.amlogic.so 0 0 0644
+vendor/lib/hw/gatekeeper.amlogic.so 0 0 0644
+vendor/lib/hw/gralloc.amlogic.so 0 0 0644
+vendor/lib/hw/gralloc.default.so 0 0 0644
+vendor/lib/hw/hdmi_cec.amlogic.so 0 0 0644
+vendor/lib/hw/hwcomposer.amlogic.so 0 0 0644
+vendor/lib/hw/local_time.default.so 0 0 0644
+vendor/lib/hw/memtrack.amlogic.so 0 0 0644
+vendor/lib/hw/power.amlogic.so 0 0 0644
+vendor/lib/hw/power.default.so 0 0 0644
+vendor/lib/hw/thermal.amlogic.so 0 0 0644
+vendor/lib/hw/vibrator.default.so 0 0 0644
+vendor/lib/libHwAudio_dcvdec.so 0 0 0644
+vendor/lib/libHwAudio_dtshd.so 0 0 0644
+vendor/lib/libOmxAudio.so 0 0 0644
+vendor/lib/libOmxBase.so 0 0 0644
+vendor/lib/libOmxCore.so 0 0 0644
+vendor/lib/libOmxCoreSw.so 0 0 0644
+vendor/lib/libOmxVideo.so 0 0 0644
+vendor/lib/libalsautils.so 0 0 0644
+vendor/lib/libam_adp.so 0 0 0644
+vendor/lib/libamadec.so 0 0 0644
+vendor/lib/libamaudioutils.so 0 0 0644
+vendor/lib/libamavutils.so 0 0 0644
+vendor/lib/libamffmpeg.vendor.so 0 0 0644
+vendor/lib/libamffmpegcodec.so 0 0 0644
+vendor/lib/libamgralloc_ext.so 0 0 0644
+vendor/lib/libamlaudiorc.so 0 0 0644
+vendor/lib/libamlreverb.so 0 0 0644
+vendor/lib/libammediaext.so 0 0 0644
+vendor/lib/libavenhancements.so 0 0 0644
+vendor/lib/libavservices_minijail_vendor.so 0 0 0644
+vendor/lib/libbluetooth_mtkbt.so 0 0 0644
+vendor/lib/libbt-vendor_bcm.so 0 0 0644
+vendor/lib/libbt-vendor_mtk.so 0 0 0644
+vendor/lib/libbt-vendor_qca.so 0 0 0644
+vendor/lib/libbt-vendor_rtl.so 0 0 0644
+vendor/lib/libbt-vendor_uwe.so 0 0 0644
+vendor/lib/libdatachunkqueue_alt.so 0 0 0644
+vendor/lib/libdisplaysetting.so 0 0 0644
+vendor/lib/libdra.so 0 0 0644
+vendor/lib/libdroidaudiospdif.so 0 0 0644
+vendor/lib/libdroidblkid.so 0 0 0644
+vendor/lib/libdroiduuid.so 0 0 0644
+vendor/lib/libdtvad.so 0 0 0644
+vendor/lib/libeffects.so 0 0 0644
+vendor/lib/libeffectsconfig.so 0 0 0644
+vendor/lib/libfaad.so 0 0 0644
+vendor/lib/libfbc.so 0 0 0644
+vendor/lib/libfpscalculator_alt.so 0 0 0644
+vendor/lib/libge2d-2.0.so 0 0 0644
+vendor/lib/libge2d.so 0 0 0644
+vendor/lib/libhbg.so 0 0 0644
+vendor/lib/libhbgdecode.so 0 0 0644
+vendor/lib/libhdmicec.so 0 0 0644
+vendor/lib/libhdmicec_jni.so 0 0 0644
+vendor/lib/libhwc2on1adapter.so 0 0 0644
+vendor/lib/libhwc2onfbadapter.so 0 0 0644
+vendor/lib/libhwminijail.so 0 0 0644
+vendor/lib/libicuuc_vendor.so 0 0 0644
+vendor/lib/libjni_remoteime.so 0 0 0644
+vendor/lib/libkeymaster3device.so 0 0 0644
+vendor/lib/libkeys_burn.so 0 0 0644
+vendor/lib/libkeystore-engine-wifi-hidl.so 0 0 0644
+vendor/lib/libkeystore-wifi-hidl.so 0 0 0644
+vendor/lib/libmad.so 0 0 0644
+vendor/lib/libmediahal_videodec.so 0 0 0644
+vendor/lib/libmeson_display_adapter_remote.so 0 0 0644
+vendor/lib/libmeson_display_service.so 0 0 0644
+vendor/lib/libms12api.so 0 0 0644
+vendor/lib/libnano.so 0 0 0644
+vendor/lib/libnbaio_mono.so 0 0 0644
+vendor/lib/libomx_av_core_alt.so 0 0 0644
+vendor/lib/libomx_clock_utils_alt.so 0 0 0644
+vendor/lib/libomx_framework_alt.so 0 0 0644
+vendor/lib/libomx_timed_task_queue_alt.so 0 0 0644
+vendor/lib/libomx_worker_peer_alt.so 0 0 0644
+vendor/lib/liboptimization.so 0 0 0644
+vendor/lib/libpqcontrol.so 0 0 0644
+vendor/lib/libreference-ril.so 0 0 0644
+vendor/lib/libremotecontrol_jni.so 0 0 0644
+vendor/lib/libremotecontrolserver.so 0 0 0644
+vendor/lib/libril.so 0 0 0644
+vendor/lib/librilutils.so 0 0 0644
+vendor/lib/libscreencontrol_jni.so 0 0 0644
+vendor/lib/libscreencontrolclient.so 0 0 0644
+vendor/lib/libstagefright_soft_amsoftdec.so 0 0 0644
+vendor/lib/libstagefright_soft_av1dec.so 0 0 0644
+vendor/lib/libstagefrighthw.so 0 0 0644
+vendor/lib/libsubtitlemanager_jni.so 0 0 0644
+vendor/lib/libsystemcontrol_jni.so 0 0 0644
+vendor/lib/libsystemcontrolclient.so 0 0 0644
+vendor/lib/libsystemcontrolservice.so 0 0 0644
+vendor/lib/libthreadworker_alt.so 0 0 0644
+vendor/lib/libtv_jni.so 0 0 0644
+vendor/lib/libtvbinder.so 0 0 0644
+vendor/lib/libvendorfont.so 0 0 0644
+vendor/lib/libvideotunnel.so 0 0 0644
+vendor/lib/libwebrtc_audio_preprocessing.so 0 0 0644
+vendor/lib/libwifi-hal-common-ext.so 0 0 0644
+vendor/lib/libwifi-hal.so 0 0 0644
+vendor/lib/libwpa_client.so 0 0 0644
+vendor/lib/libwvhidl.so 0 0 0644
+vendor/lib/mediacas 0 2000 0755
+vendor/lib/mediacas/libclearkeycasplugin.so 0 0 0644
+vendor/lib/mediadrm 0 2000 0755
+vendor/lib/mediadrm/libdrmclearkeyplugin.so 0 0 0644
+vendor/lib/modules 0 2000 0755
+vendor/lib/modules/8188eu.ko 0 0 0644
+vendor/lib/modules/8189es.ko 0 0 0644
+vendor/lib/modules/8189fs.ko 0 0 0644
+vendor/lib/modules/8723bs.ko 0 0 0644
+vendor/lib/modules/8723bu.ko 0 0 0644
+vendor/lib/modules/8723ds.ko 0 0 0644
+vendor/lib/modules/8723du.ko 0 0 0644
+vendor/lib/modules/8821au.ko 0 0 0644
+vendor/lib/modules/8821cs.ko 0 0 0644
+vendor/lib/modules/8821cu.ko 0 0 0644
+vendor/lib/modules/8822bs.ko 0 0 0644
+vendor/lib/modules/8822bu.ko 0 0 0644
+vendor/lib/modules/8822cs.ko 0 0 0644
+vendor/lib/modules/aml_hardware_dmx.ko 0 0 0644
+vendor/lib/modules/amvdec_avs.ko 0 0 0644
+vendor/lib/modules/amvdec_avs2.ko 0 0 0644
+vendor/lib/modules/amvdec_h264.ko 0 0 0644
+vendor/lib/modules/amvdec_h264mvc.ko 0 0 0644
+vendor/lib/modules/amvdec_h265.ko 0 0 0644
+vendor/lib/modules/amvdec_mavs.ko 0 0 0644
+vendor/lib/modules/amvdec_mh264.ko 0 0 0644
+vendor/lib/modules/amvdec_mjpeg.ko 0 0 0644
+vendor/lib/modules/amvdec_mmjpeg.ko 0 0 0644
+vendor/lib/modules/amvdec_mmpeg12.ko 0 0 0644
+vendor/lib/modules/amvdec_mmpeg4.ko 0 0 0644
+vendor/lib/modules/amvdec_mpeg12.ko 0 0 0644
+vendor/lib/modules/amvdec_mpeg4.ko 0 0 0644
+vendor/lib/modules/amvdec_real.ko 0 0 0644
+vendor/lib/modules/amvdec_vc1.ko 0 0 0644
+vendor/lib/modules/amvdec_vp9.ko 0 0 0644
+vendor/lib/modules/bcmdhd.ko 0 0 0644
+vendor/lib/modules/btmtk_usb.ko 0 0 0644
+vendor/lib/modules/btmtksdio.ko 0 0 0644
+vendor/lib/modules/btusb.ko 0 0 0644
+vendor/lib/modules/ci.ko 0 0 0644
+vendor/lib/modules/cimax-usb.ko 0 0 0644
+vendor/lib/modules/decoder_common.ko 0 0 0644
+vendor/lib/modules/dhd.ko 0 0 0644
+vendor/lib/modules/dhdpci.ko 0 0 0644
+vendor/lib/modules/encoder.ko 0 0 0644
+vendor/lib/modules/firmware.ko 0 0 0644
+vendor/lib/modules/hdr10_tmo_alg.ko 0 0 0644
+vendor/lib/modules/mali.ko 0 0 0644
+vendor/lib/modules/media_clock.ko 0 0 0644
+vendor/lib/modules/modules.alias 0 0 0644
+vendor/lib/modules/modules.dep 0 0 0644
+vendor/lib/modules/mt7601usta.ko 0 0 0644
+vendor/lib/modules/mt7603usta.ko 0 0 0644
+vendor/lib/modules/mtprealloc.ko 0 0 0644
+vendor/lib/modules/rtk_btusb.ko 0 0 0644
+vendor/lib/modules/sprdbt_tty.ko 0 0 0644
+vendor/lib/modules/sprdwl_ng.ko 0 0 0644
+vendor/lib/modules/ssv6051.ko 0 0 0644
+vendor/lib/modules/ssv6x5x.ko 0 0 0644
+vendor/lib/modules/ssv_hwif_ctrl.ko 0 0 0644
+vendor/lib/modules/stream_input.ko 0 0 0644
+vendor/lib/modules/tb_detect.ko 0 0 0644
+vendor/lib/modules/uwe5621_bsp_sdio.ko 0 0 0644
+vendor/lib/modules/vpu.ko 0 0 0644
+vendor/lib/modules/wlan_6174.ko 0 0 0644
+vendor/lib/modules/wlan_9377.ko 0 0 0644
+vendor/lib/modules/wlan_9379.ko 0 0 0644
+vendor/lib/modules/wlan_mt7663_sdio.ko 0 0 0644
+vendor/lib/modules/wlan_mt76x8_sdio.ko 0 0 0644
+vendor/lib/modules/wlan_mt76x8_usb.ko 0 0 0644
+vendor/lib/modules/wlan_mt7961_pcie.ko 0 0 0644
+vendor/lib/soundfx 0 2000 0755
+vendor/lib/soundfx/libaudiopreprocessing.so 0 0 0644
+vendor/lib/soundfx/libavl.so 0 0 0644
+vendor/lib/soundfx/libbalance.so 0 0 0644
+vendor/lib/soundfx/libbundlewrapper.so 0 0 0644
+vendor/lib/soundfx/libdbx.so 0 0 0644
+vendor/lib/soundfx/libdownmix.so 0 0 0644
+vendor/lib/soundfx/libdynproc.so 0 0 0644
+vendor/lib/soundfx/libeffectproxy.so 0 0 0644
+vendor/lib/soundfx/libgeq.so 0 0 0644
+vendor/lib/soundfx/libhpeqwrapper.so 0 0 0644
+vendor/lib/soundfx/libldnhncr.so 0 0 0644
+vendor/lib/soundfx/libms12dapwrapper.so 0 0 0644
+vendor/lib/soundfx/libreverbwrapper.so 0 0 0644
+vendor/lib/soundfx/libsrswrapper.so 0 0 0644
+vendor/lib/soundfx/libtreblebasswrapper.so 0 0 0644
+vendor/lib/soundfx/libvirtualsurround.so 0 0 0644
+vendor/lib/soundfx/libvirtualx.so 0 0 0644
+vendor/lib/soundfx/libvisualizer.so 0 0 0644
+vendor/lib/teetz 0 2000 0755
+vendor/lib/teetz/41fe9859-71e4-4bf4-bbaad71435b127ae.ta 0 0 0644
+vendor/lib/teetz/e043cde0-61d0-11e5-9c260002a5d5c5ca.ta 0 0 0644
+vendor/lib/vendor.amlogic.display.meson_display_ipc@1.0.so 0 0 0644
+vendor/lib/vendor.amlogic.hardware.droidvold@1.0.so 0 0 0644
+vendor/lib/vendor.amlogic.hardware.hdmicec@1.0.so 0 0 0644
+vendor/lib/vendor.amlogic.hardware.miracast_hdcp2@1.0.so 0 0 0644
+vendor/lib/vendor.amlogic.hardware.remotecontrol@1.0.so 0 0 0644
+vendor/lib/vendor.amlogic.hardware.screencontrol@1.0.so 0 0 0644
+vendor/lib/vendor.amlogic.hardware.subtitleserver@1.0.so 0 0 0644
+vendor/lib/vendor.amlogic.hardware.systemcontrol@1.0.so 0 0 0644
+vendor/lib/vendor.amlogic.hardware.systemcontrol@1.1.so 0 0 0644
+vendor/lib/vendor.amlogic.hardware.tvserver@1.0.so 0 0 0644
+vendor/logo_files 0 2000 0755
+vendor/logo_files/bootup.bmp 0 0 0644
+vendor/logo_files/upgrade_bar 0 0 0644
+vendor/logo_files/upgrade_error 0 0 0644
+vendor/logo_files/upgrade_fail 0 0 0644
+vendor/logo_files/upgrade_logo 0 0 0644
+vendor/logo_files/upgrade_success 0 0 0644
+vendor/logo_files/upgrade_unfocus 0 0 0644
+vendor/logo_files/upgrade_upgrading 0 0 0644
+vendor/lost+found 0 0 0700
+vendor/package_config 0 2000 0755
+vendor/package_config/config 0 0 0644
+vendor/ueventd.rc 0 0 0644
+vendor/usr 0 2000 0755
+vendor/usr/idc 0 2000 0755
+vendor/usr/idc/Vendor_1915_Product_0001.idc 0 0 0644
+vendor/usr/idc/Vendor_1d5a_Product_c082.idc 0 0 0644
+vendor/usr/keylayout 0 2000 0755
+vendor/usr/keylayout/Generic.kl 0 0 0644
+vendor/usr/keylayout/Vendor_0001_Product_0001.kl 0 0 0644
+vendor/usr/keylayout/Vendor_005d_Product_0001.kl 0 0 0644
+vendor/usr/keylayout/Vendor_005d_Product_0002.kl 0 0 0644
+vendor/usr/keylayout/Vendor_00c9_Product_2766.kl 0 0 0644
+vendor/usr/keylayout/Vendor_0416_Product_0300.kl 0 0 0644
+vendor/usr/keylayout/Vendor_0416_Product_0602.kl 0 0 0644
+vendor/usr/keylayout/Vendor_0484_Product_5738.kl 0 0 0644
+vendor/usr/keylayout/Vendor_0508_Product_0110.kl 0 0 0644
+vendor/usr/keylayout/Vendor_0c45_Product_1109.kl 0 0 0644
+vendor/usr/keylayout/Vendor_1d5a_Product_c082.kl 0 0 0644
+vendor/usr/keylayout/Vendor_7045_Product_1820.kl 0 0 0644
+vendor/usr/keylayout/Vendor_7545_Product_0180.kl 0 0 0644
+vendor/xbin 0 2000 0755
+vendor/xbin/[ 0 2000 0755 busybox
+vendor/xbin/[[ 0 2000 0755 busybox
+vendor/xbin/adjtimex 0 2000 0755 busybox
+vendor/xbin/arp 0 2000 0755 busybox
+vendor/xbin/ash 0 2000 0755 busybox
+vendor/xbin/awk 0 2000 0755 busybox
+vendor/xbin/base64 0 2000 0755 busybox
+vendor/xbin/basename 0 2000 0755 busybox
+vendor/xbin/bbconfig 0 2000 0755 busybox
+vendor/xbin/bcmdl 0 2000 0755
+vendor/xbin/blkid 0 2000 0755 busybox
+vendor/xbin/blockdev 0 2000 0755 busybox
+vendor/xbin/brctl 0 2000 0755 busybox
+vendor/xbin/bunzip2 0 2000 0755 busybox
+vendor/xbin/busybox 0 2000 0755
+vendor/xbin/bzcat 0 2000 0755 busybox
+vendor/xbin/bzip2 0 2000 0755 busybox
+vendor/xbin/cal 0 2000 0755 busybox
+vendor/xbin/cat 0 2000 0755 busybox
+vendor/xbin/catv 0 2000 0755 busybox
+vendor/xbin/chattr 0 2000 0755 busybox
+vendor/xbin/chcon 0 2000 0755 busybox
+vendor/xbin/chgrp 0 2000 0755 busybox
+vendor/xbin/chmod 0 2000 0755 busybox
+vendor/xbin/chown 0 2000 0755 busybox
+vendor/xbin/chroot 0 2000 0755 busybox
+vendor/xbin/chvt 0 2000 0755 busybox
+vendor/xbin/clear 0 2000 0755 busybox
+vendor/xbin/cmp 0 2000 0755 busybox
+vendor/xbin/comm 0 2000 0755 busybox
+vendor/xbin/cp 0 2000 0755 busybox
+vendor/xbin/cpio 0 2000 0755 busybox
+vendor/xbin/crond 0 2000 0755 busybox
+vendor/xbin/crontab 0 2000 0755 busybox
+vendor/xbin/cut 0 2000 0755 busybox
+vendor/xbin/date 0 2000 0755 busybox
+vendor/xbin/dc 0 2000 0755 busybox
+vendor/xbin/dd 0 2000 0755 busybox
+vendor/xbin/deallocvt 0 2000 0755 busybox
+vendor/xbin/depmod 0 2000 0755 busybox
+vendor/xbin/devmem 0 2000 0755 busybox
+vendor/xbin/df 0 2000 0755 busybox
+vendor/xbin/diff 0 2000 0755 busybox
+vendor/xbin/dirname 0 2000 0755 busybox
+vendor/xbin/dmesg 0 2000 0755 busybox
+vendor/xbin/dnsd 0 2000 0755 busybox
+vendor/xbin/dos2unix 0 2000 0755 busybox
+vendor/xbin/du 0 2000 0755 busybox
+vendor/xbin/echo 0 2000 0755 busybox
+vendor/xbin/ed 0 2000 0755 busybox
+vendor/xbin/egrep 0 2000 0755 busybox
+vendor/xbin/env 0 2000 0755 busybox
+vendor/xbin/expand 0 2000 0755 busybox
+vendor/xbin/expr 0 2000 0755 busybox
+vendor/xbin/false 0 2000 0755 busybox
+vendor/xbin/fbset 0 2000 0755 busybox
+vendor/xbin/fbsplash 0 2000 0755 busybox
+vendor/xbin/fdisk 0 2000 0755 busybox
+vendor/xbin/fgconsole 0 2000 0755 busybox
+vendor/xbin/fgrep 0 2000 0755 busybox
+vendor/xbin/find 0 2000 0755 busybox
+vendor/xbin/findfs 0 2000 0755 busybox
+vendor/xbin/flash_lock 0 2000 0755 busybox
+vendor/xbin/flash_unlock 0 2000 0755 busybox
+vendor/xbin/flashcp 0 2000 0755 busybox
+vendor/xbin/flock 0 2000 0755 busybox
+vendor/xbin/fold 0 2000 0755 busybox
+vendor/xbin/free 0 2000 0755 busybox
+vendor/xbin/freeramdisk 0 2000 0755 busybox
+vendor/xbin/fstrim 0 2000 0755 busybox
+vendor/xbin/fsync 0 2000 0755 busybox
+vendor/xbin/ftpget 0 2000 0755 busybox
+vendor/xbin/ftpput 0 2000 0755 busybox
+vendor/xbin/fuser 0 2000 0755 busybox
+vendor/xbin/getenforce 0 2000 0755 busybox
+vendor/xbin/getopt 0 2000 0755 busybox
+vendor/xbin/getsebool 0 2000 0755 busybox
+vendor/xbin/grep 0 2000 0755 busybox
+vendor/xbin/groups 0 2000 0755 busybox
+vendor/xbin/gunzip 0 2000 0755 busybox
+vendor/xbin/gzip 0 2000 0755 busybox
+vendor/xbin/halt 0 2000 0755 busybox
+vendor/xbin/head 0 2000 0755 busybox
+vendor/xbin/hexdump 0 2000 0755 busybox
+vendor/xbin/hwclock 0 2000 0755 busybox
+vendor/xbin/id 0 2000 0755 busybox
+vendor/xbin/ifconfig 0 2000 0755 busybox
+vendor/xbin/inetd 0 2000 0755 busybox
+vendor/xbin/insmod 0 2000 0755 busybox
+vendor/xbin/install 0 2000 0755 busybox
+vendor/xbin/ionice 0 2000 0755 busybox
+vendor/xbin/iostat 0 2000 0755 busybox
+vendor/xbin/ip 0 2000 0755 busybox
+vendor/xbin/kill 0 2000 0755 busybox
+vendor/xbin/killall 0 2000 0755 busybox
+vendor/xbin/killall5 0 2000 0755 busybox
+vendor/xbin/less 0 2000 0755 busybox
+vendor/xbin/ln 0 2000 0755 busybox
+vendor/xbin/losetup 0 2000 0755 busybox
+vendor/xbin/ls 0 2000 0755 busybox
+vendor/xbin/lsattr 0 2000 0755 busybox
+vendor/xbin/lsmod 0 2000 0755 busybox
+vendor/xbin/lsof 0 2000 0755 busybox
+vendor/xbin/lspci 0 2000 0755 busybox
+vendor/xbin/lsusb 0 2000 0755 busybox
+vendor/xbin/lzcat 0 2000 0755 busybox
+vendor/xbin/lzma 0 2000 0755 busybox
+vendor/xbin/lzop 0 2000 0755 busybox
+vendor/xbin/lzopcat 0 2000 0755 busybox
+vendor/xbin/man 0 2000 0755 busybox
+vendor/xbin/matchpathcon 0 2000 0755 busybox
+vendor/xbin/md5sum 0 2000 0755 busybox
+vendor/xbin/mesg 0 2000 0755 busybox
+vendor/xbin/mkdir 0 2000 0755 busybox
+vendor/xbin/mkdosfs 0 2000 0755 busybox
+vendor/xbin/mke2fs 0 2000 0755 busybox
+vendor/xbin/mkfifo 0 2000 0755 busybox
+vendor/xbin/mkfs.ext2 0 2000 0755 busybox
+vendor/xbin/mkfs.vfat 0 2000 0755 busybox
+vendor/xbin/mknod 0 2000 0755 busybox
+vendor/xbin/mkswap 0 2000 0755 busybox
+vendor/xbin/mktemp 0 2000 0755 busybox
+vendor/xbin/modinfo 0 2000 0755 busybox
+vendor/xbin/modprobe 0 2000 0755 busybox
+vendor/xbin/more 0 2000 0755 busybox
+vendor/xbin/mount 0 2000 0755 busybox
+vendor/xbin/mountpoint 0 2000 0755 busybox
+vendor/xbin/mpstat 0 2000 0755 busybox
+vendor/xbin/mv 0 2000 0755 busybox
+vendor/xbin/nanddump 0 2000 0755 busybox
+vendor/xbin/nandwrite 0 2000 0755 busybox
+vendor/xbin/nbd-client 0 2000 0755 busybox
+vendor/xbin/netstat 0 2000 0755 busybox
+vendor/xbin/nice 0 2000 0755 busybox
+vendor/xbin/nmeter 0 2000 0755 busybox
+vendor/xbin/nohup 0 2000 0755 busybox
+vendor/xbin/nslookup 0 2000 0755 busybox
+vendor/xbin/ntpd 0 2000 0755 busybox
+vendor/xbin/od 0 2000 0755 busybox
+vendor/xbin/openvt 0 2000 0755 busybox
+vendor/xbin/patch 0 2000 0755 busybox
+vendor/xbin/pgrep 0 2000 0755 busybox
+vendor/xbin/pidof 0 2000 0755 busybox
+vendor/xbin/ping 0 2000 0755 busybox
+vendor/xbin/pipe_progress 0 2000 0755 busybox
+vendor/xbin/pkill 0 2000 0755 busybox
+vendor/xbin/pmap 0 2000 0755 busybox
+vendor/xbin/poweroff 0 2000 0755 busybox
+vendor/xbin/printenv 0 2000 0755 busybox
+vendor/xbin/printf 0 2000 0755 busybox
+vendor/xbin/ps 0 2000 0755 busybox
+vendor/xbin/pstree 0 2000 0755 busybox
+vendor/xbin/pwd 0 2000 0755 busybox
+vendor/xbin/pwdx 0 2000 0755 busybox
+vendor/xbin/rdate 0 2000 0755 busybox
+vendor/xbin/rdev 0 2000 0755 busybox
+vendor/xbin/readlink 0 2000 0755 busybox
+vendor/xbin/realpath 0 2000 0755 busybox
+vendor/xbin/reboot 0 2000 0755 busybox
+vendor/xbin/renice 0 2000 0755 busybox
+vendor/xbin/reset 0 2000 0755 busybox
+vendor/xbin/resize 0 2000 0755 busybox
+vendor/xbin/restorecon 0 2000 0755 busybox
+vendor/xbin/rev 0 2000 0755 busybox
+vendor/xbin/rm 0 2000 0755 busybox
+vendor/xbin/rmdir 0 2000 0755 busybox
+vendor/xbin/rmmod 0 2000 0755 busybox
+vendor/xbin/route 0 2000 0755 busybox
+vendor/xbin/run-parts 0 2000 0755 busybox
+vendor/xbin/runcon 0 2000 0755 busybox
+vendor/xbin/rx 0 2000 0755 busybox
+vendor/xbin/sed 0 2000 0755 busybox
+vendor/xbin/selinuxenabled 0 2000 0755 busybox
+vendor/xbin/seq 0 2000 0755 busybox
+vendor/xbin/sestatus 0 2000 0755 busybox
+vendor/xbin/setconsole 0 2000 0755 busybox
+vendor/xbin/setenforce 0 2000 0755 busybox
+vendor/xbin/setfiles 0 2000 0755 busybox
+vendor/xbin/setkeycodes 0 2000 0755 busybox
+vendor/xbin/setsebool 0 2000 0755 busybox
+vendor/xbin/setserial 0 2000 0755 busybox
+vendor/xbin/setsid 0 2000 0755 busybox
+vendor/xbin/sh 0 2000 0755 busybox
+vendor/xbin/sha1sum 0 2000 0755 busybox
+vendor/xbin/sha256sum 0 2000 0755 busybox
+vendor/xbin/sha3sum 0 2000 0755 busybox
+vendor/xbin/sha512sum 0 2000 0755 busybox
+vendor/xbin/sleep 0 2000 0755 busybox
+vendor/xbin/smemcap 0 2000 0755 busybox
+vendor/xbin/sort 0 2000 0755 busybox
+vendor/xbin/split 0 2000 0755 busybox
+vendor/xbin/stat 0 2000 0755 busybox
+vendor/xbin/strings 0 2000 0755 busybox
+vendor/xbin/stty 0 2000 0755 busybox
+vendor/xbin/sum 0 2000 0755 busybox
+vendor/xbin/swapoff 0 2000 0755 busybox
+vendor/xbin/swapon 0 2000 0755 busybox
+vendor/xbin/sync 0 2000 0755 busybox
+vendor/xbin/sysctl 0 2000 0755 busybox
+vendor/xbin/tac 0 2000 0755 busybox
+vendor/xbin/tail 0 2000 0755 busybox
+vendor/xbin/tar 0 2000 0755 busybox
+vendor/xbin/taskset 0 2000 0755 busybox
+vendor/xbin/tee 0 2000 0755 busybox
+vendor/xbin/telnet 0 2000 0755 busybox
+vendor/xbin/telnetd 0 2000 0755 busybox
+vendor/xbin/test 0 2000 0755 busybox
+vendor/xbin/tftp 0 2000 0755 busybox
+vendor/xbin/tftpd 0 2000 0755 busybox
+vendor/xbin/time 0 2000 0755 busybox
+vendor/xbin/timeout 0 2000 0755 busybox
+vendor/xbin/top 0 2000 0755 busybox
+vendor/xbin/touch 0 2000 0755 busybox
+vendor/xbin/tr 0 2000 0755 busybox
+vendor/xbin/traceroute 0 2000 0755 busybox
+vendor/xbin/true 0 2000 0755 busybox
+vendor/xbin/ttysize 0 2000 0755 busybox
+vendor/xbin/tune2fs 0 2000 0755 busybox
+vendor/xbin/umount 0 2000 0755 busybox
+vendor/xbin/uname 0 2000 0755 busybox
+vendor/xbin/uncompress 0 2000 0755 busybox
+vendor/xbin/unexpand 0 2000 0755 busybox
+vendor/xbin/uniq 0 2000 0755 busybox
+vendor/xbin/unix2dos 0 2000 0755 busybox
+vendor/xbin/unlzma 0 2000 0755 busybox
+vendor/xbin/unlzop 0 2000 0755 busybox
+vendor/xbin/unxz 0 2000 0755 busybox
+vendor/xbin/unzip 0 2000 0755 busybox
+vendor/xbin/uptime 0 2000 0755 busybox
+vendor/xbin/usleep 0 2000 0755 busybox
+vendor/xbin/uudecode 0 2000 0755 busybox
+vendor/xbin/uuencode 0 2000 0755 busybox
+vendor/xbin/vi 0 2000 0755 busybox
+vendor/xbin/watch 0 2000 0755 busybox
+vendor/xbin/wc 0 2000 0755 busybox
+vendor/xbin/wget 0 2000 0755 busybox
+vendor/xbin/whoami 0 2000 0755 busybox
+vendor/xbin/xargs 0 2000 0755 busybox
+vendor/xbin/xz 0 2000 0755 busybox
+vendor/xbin/xzcat 0 2000 0755 busybox
+vendor/xbin/yes 0 2000 0755 busybox
+vendor/xbin/zcat 0 2000 0755 busybox

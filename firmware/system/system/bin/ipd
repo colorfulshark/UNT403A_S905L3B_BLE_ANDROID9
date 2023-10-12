@@ -1,0 +1,4 @@
+#!/system/bin/sh
+base=/system
+export CLASSPATH=$base/framework/libipd.jar:$base/framework/iptvd.core.jar
+exec app_process $base/bin amlogic.commands.ipd.Ipd "$@"

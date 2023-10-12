@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<combinekeys>
+
+    <combinekey>
+        <keyfunction>fhremotedebugserver</keyfunction>
+        <keylist>24,21,21,22,22,24</keylist>
+        <type>activity</type>
+        <packagename>com.fiberhome.fhremotedebugserver</packagename>
+        <classname>com.fiberhome.fhremotedebugserver.activity.OneKeyLogCollectionActivity</classname>
+        <action>android.intent.action.MAIN</action>
+        <flag>Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED</flag>
+    </combinekey>
+</combinekeys>

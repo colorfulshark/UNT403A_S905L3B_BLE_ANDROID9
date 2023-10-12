@@ -1,0 +1,87 @@
+--- /home/jenkins/workspace/J_CMCC_HG680-LY_2_S905L_CMCCGUANGDONG/FiberHome-p291_iptv-CMCCGUANGDONG-NONSECURITY-userdebug/device/amlogic/p291_iptv/p291_iptv.mk_bk	2021-10-21 04:30:29.785226390 +0800
++++ /home/jenkins/workspace/J_CMCC_HG680-LY_2_S905L_CMCCGUANGDONG/FiberHome-p291_iptv-CMCCGUANGDONG-NONSECURITY-userdebug/device/amlogic/p291_iptv/p291_iptv.mk	2021-10-21 04:30:29.801226389 +0800
+@@ -175,12 +175,12 @@
+     PRODUCT_MODEL:=$(MOBILE_UNIT_TYPE)
+ else
+     ifeq ($(P291_IPTV_ENABLE),true)
+-    PRODUCT_MODEL := p291_iptv
++    PRODUCT_MODEL := HG680-LY
+     else ifeq ($(U211_IPTV_ENABLE),true)
+-    #PRODUCT_MODEL := u211_iptv
+-    PRODUCT_MODEL := p291_iptv
++    #PRODUCT_MODEL := HG680-LY
++    PRODUCT_MODEL := HG680-LY
+     else
+-    PRODUCT_MODEL := p291_iptv
++    PRODUCT_MODEL := HG680-LY
+     endif
+ endif
+ 
+--- /home/jenkins/workspace/J_CMCC_HG680-LY_2_S905L_CMCCGUANGDONG/FiberHome-p291_iptv-CMCCGUANGDONG-NONSECURITY-userdebug/device/amlogic/p291_iptv/p291_iptv.mk_bk	2021-10-21 04:30:29.785226390 +0800
++++ /home/jenkins/workspace/J_CMCC_HG680-LY_2_S905L_CMCCGUANGDONG/FiberHome-p291_iptv-CMCCGUANGDONG-NONSECURITY-userdebug/device/amlogic/p291_iptv/p291_iptv.mk	2021-10-21 04:30:29.837226388 +0800
+@@ -175,12 +175,12 @@
+     PRODUCT_MODEL:=$(MOBILE_UNIT_TYPE)
+ else
+     ifeq ($(P291_IPTV_ENABLE),true)
+-    PRODUCT_MODEL := p291_iptv
++    PRODUCT_MODEL := HG680-LY
+     else ifeq ($(U211_IPTV_ENABLE),true)
+-    #PRODUCT_MODEL := u211_iptv
+-    PRODUCT_MODEL := p291_iptv
++    #PRODUCT_MODEL := HG680-LY
++    PRODUCT_MODEL := HG680-LY
+     else
+-    PRODUCT_MODEL := p291_iptv
++    PRODUCT_MODEL := HG680-LY
+     endif
+ endif
+ 
+--- /home/jenkins/workspace/J_CMCC_HG680-LY_2_S905L_CMCCGUANGDONG/FiberHome-p291_iptv-CMCCGUANGDONG-NONSECURITY-userdebug/device/amlogic/p291_iptv/BoardConfig.mk_bk	2021-10-21 04:30:29.853226387 +0800
++++ /home/jenkins/workspace/J_CMCC_HG680-LY_2_S905L_CMCCGUANGDONG/FiberHome-p291_iptv-CMCCGUANGDONG-NONSECURITY-userdebug/device/amlogic/p291_iptv/BoardConfig.mk	2021-10-21 04:30:29.869226386 +0800
+@@ -48,15 +48,15 @@
+ 
+ ifeq ($(P291_IPTV_ENABLE),true)
+ TARGET_BOARD_PLATFORM := p291_iptv
+-TARGET_BOOTLOADER_BOARD_NAME := p291_iptv
++TARGET_BOOTLOADER_BOARD_NAME := S905L3
+ else ifeq ($(U211_IPTV_ENABLE),true)
+ #TARGET_BOARD_PLATFORM := u211_iptv
+-#TARGET_BOOTLOADER_BOARD_NAME := u211_iptv
++#TARGET_BOOTLOADER_BOARD_NAME := S905L3
+ TARGET_BOARD_PLATFORM := p291_iptv
+-TARGET_BOOTLOADER_BOARD_NAME := p291_iptv
++TARGET_BOOTLOADER_BOARD_NAME := S905L3
+ else
+ TARGET_BOARD_PLATFORM := p291_iptv
+-TARGET_BOOTLOADER_BOARD_NAME := p291_iptv
++TARGET_BOOTLOADER_BOARD_NAME := S905L3
+ endif
+ 
+ # Allow passing `--second` to mkbootimg via 2ndbootloader.
+--- /home/jenkins/workspace/J_CMCC_HG680-LY_2_S905L_CMCCGUANGDONG/FiberHome-p291_iptv-CMCCGUANGDONG-NONSECURITY-userdebug/device/amlogic/p291_iptv/system_chinamobile.prop_bk	2021-10-21 04:30:29.885226386 +0800
++++ /home/jenkins/workspace/J_CMCC_HG680-LY_2_S905L_CMCCGUANGDONG/FiberHome-p291_iptv-CMCCGUANGDONG-NONSECURITY-userdebug/device/amlogic/p291_iptv/system_chinamobile.prop	2021-10-21 04:30:29.905226385 +0800
+@@ -267,7 +267,7 @@
+ 
+ #for China mobile
+ net.ppp.retrycount=2
+-persist.sys.autosuspend.hdmi=true
++persist.sys.autosuspend.hdmi=false
+ sys.deepdiagnose.support=1
+ sys.wifi.ipv6.enable=true
+ sys.broadcast.permit=true
+--- /home/jenkins/workspace/J_CMCC_HG680-LY_2_S905L_CMCCGUANGDONG/FiberHome-p291_iptv-CMCCGUANGDONG-NONSECURITY-userdebug/device/amlogic/p291_iptv/system_chinamobile.prop_bk	2021-10-21 04:30:29.885226386 +0800
++++ /home/jenkins/workspace/J_CMCC_HG680-LY_2_S905L_CMCCGUANGDONG/FiberHome-p291_iptv-CMCCGUANGDONG-NONSECURITY-userdebug/device/amlogic/p291_iptv/system_chinamobile.prop	2021-10-21 04:30:29.945226383 +0800
+@@ -267,11 +267,11 @@
+ 
+ #for China mobile
+ net.ppp.retrycount=2
+-persist.sys.autosuspend.hdmi=true
++persist.sys.autosuspend.hdmi=false
+ sys.deepdiagnose.support=1
+ sys.wifi.ipv6.enable=true
+ sys.broadcast.permit=true
+-persist.net.monitor=true
++persist.net.monitor=false
+ 
+ #for all cec key on or off
+ persist.sys.cec.enable.key=true

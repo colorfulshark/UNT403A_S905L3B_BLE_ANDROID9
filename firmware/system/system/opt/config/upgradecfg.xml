@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgradecfg>
+ <config id="001">
+    <need-usb-upgrade>1</need-usb-upgrade>
+</config>
+</upgradecfg>

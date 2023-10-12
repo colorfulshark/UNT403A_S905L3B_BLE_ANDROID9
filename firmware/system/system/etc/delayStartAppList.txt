@@ -1,0 +1,15 @@
+timeout_ms=18000
+net.sunniwell.inputmethod.swpinyin2=true
+com.iflytek.xiri=true
+com.iflytek.xiri2.system=true
+com.cmgame.gamehalltv=true
+tv.icntv.migu=true
+com.komect.skill.client=true
+com.cmhi.amlandlink=true
+com.yd.appstore.ott=true
+com.vixtel.stb.agent=true
+com.android.se=true
+com.shcmcc.swdevicemanger=true
+com.cmcc.mid.softdetector=true
+net.dlb.shcmcc.installservice=true
+com.android.keychain=true

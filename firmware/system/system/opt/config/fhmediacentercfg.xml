@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fhmediacenterconfigs>
+    <config id="001">
+        <imgdisplayconf>1</imgdisplayconf>
+		<multi-speed>0</multi-speed>
+		<province>CMCCGUANGDONG</province>
+    </config>
+    
+</fhmediacenterconfigs>

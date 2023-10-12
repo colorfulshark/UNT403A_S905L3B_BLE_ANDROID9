@@ -1,0 +1,5 @@
+service wifi_preload /vendor/bin/wifi_preload
+    class main
+    user root
+    group system wifi net_raw net_admin
+    oneshot

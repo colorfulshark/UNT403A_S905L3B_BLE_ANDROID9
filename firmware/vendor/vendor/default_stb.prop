@@ -1,0 +1,43 @@
+# begin build properties by customer
+#数据库开关
+ro.support.db=1
+
+#硬件版本号
+ro.product.model.hardware=HG680V2
+
+#盒端设备硬件版本信息
+ro.build.hardware.id=HG680V2
+
+#一机一密开关
+ro.sys.remote.decrypt=true
+
+#密码加密方式
+ro.encode.type=aes
+
+#开机拉起认证apk
+sys.deflauncher.pkg=com.android.smart.terminal.iptv
+sys.deflauncher.cls=com.amt.app.IPTVActivity
+
+#卓影中间件写入属性
+persist.sys.unifiedversion=
+persist.sys.auto.reboot=1
+
+#默认网络信息
+ro.ethernet.def_ipv4_on=true
+ro.ethernet.def_ipv6_on=true
+
+#开机黑屏适配
+sys.lunch.wait.enable=1
+sys.lunch.wait.pkg=com.android.smart.terminal.iptv
+
+ro.devicesummary=p291_iptv
+ro.product.chiptype=amlogic905L
+ro.product.cpu.info=ARM Cortex-A53
+ro.product.gpu.info=ARM Mali-450
+ro.product.cpuarchitec=armeabi-v7a
+ro.product.fused=0
+ro.product.productclass=HG680-LY
+
+ro.operator.area=CMCCGUANGDONG
+
+ro.product.operator=CMCC

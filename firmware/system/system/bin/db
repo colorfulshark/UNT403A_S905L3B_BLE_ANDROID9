@@ -1,0 +1,135 @@
+#! /system/bin/sh
+ 
+TABLE=stbconfig
+TYPE=$1
+
+function getTable()
+{       
+    SU=`content query --uri content://fhconfig/summary --projection name:value | grep name=${NAME},`
+    if [ "$SU" != "" ];then
+       TABLE=summary
+       echo "==================find in summary=========================="
+    fi
+    #AU=`content query --uri content://stbconfig/authentication --projection name:value | grep name=${NAME},`
+    #if [ "$AU" != "" ];then
+    #   TABLE=authentication
+    #   echo "==================find in authentication==================="
+    #fi
+    echo "=====================TABLE=$TABLE============================="
+}
+
+function showall()
+{
+     echo "============================================================="
+     echo "==================show all databases========================="
+     #echo "==================show all authentication===================="
+     #content query --uri content://stbconfig/authentication
+     echo "==================show all stbconfig========================="
+     content query --uri content://fhconfig/stbconfig --projection name:value --sort "name ASC"
+     echo "===================show all summary=========================="
+     content query --uri content://fhconfig/summary --projection name:value --sort "name ASC"
+     echo "============================================================="
+}
+
+if [ "$TYPE" == "" ];then
+     echo "============================================================="
+     echo "==================show all cmd start========================="
+     echo "db  (---------------show help--------------------------------)"
+     echo "db get (------------show all databases table-----------------)"
+     echo "db get name   (-----------------show name's value------------)"
+     echo "db set name newvalue  (---modify newvalue as name's value----)"
+     echo "db add name value (--insert name value into stbconfig table--)" 
+     echo "db init     (-----------restore db into init state-----------)" 
+     echo "=============================================================" 
+     echo "db sget   (-----------show all system databases------------)"
+     echo "db sset name newvalue table(modify newvalue as name's value)" 
+     echo "db net    (-------------------show net info-------------------)"
+     echo "db dblog    (-------------------show dblog-------------------)"
+     echo "==================show all cmd start========================="
+     echo "============================================================="
+
+fi
+      
+if [ "$TYPE" == "get" ];then
+    NAME=$2
+    if [ "$NAME" == "" ];then
+       showall
+    else
+       getTable
+       content query --uri content://fhconfig/$TABLE --where "name='$NAME'"
+    fi
+elif [ "$TYPE" == "set" ];then
+    NAME=$2
+    VALUE=$3
+    getTable
+    content update --uri content://fhconfig/$TABLE/$NAME  --bind value:s:$VALUE
+    content query --uri content://fhconfig/$TABLE --where "name='$NAME'"
+elif [ "$TYPE" == "del" ];then
+    NAME=$2
+    getTable
+    content delete --uri content://fhconfig/$TABLE/$NAME
+elif [ "$TYPE" == "add" ];then
+    NAME=$2
+    VALUE=$3
+    getTable
+    content insert --uri content://fhconfig/$TABLE --bind name:s:$NAME --bind value:s:$VALUE
+    content query --uri content://fhconfig/$TABLE --where "name='$NAME'"
+elif [ "$TYPE" == "init" ];then
+    rm /params/backup.dat
+    cp /system/opt/etc/backup.dat /params/
+    rm -rf /data/data/com.fiberhome.fhstbconfig
+    showall
+elif [ "$TYPE" == "sset" ];then
+    NAME=$2
+    VALUE=$3
+    TABLE=$4
+    echo "=======db sset NAME=$NAME,VALUE=$VALUE,TABLE=$TABLE ======"
+    if [ "$TABLE" == "secure" ] || [ "$TABLE" == "global" ] || [ "$TABLE" == "system" ];then
+        settings put $TABLE $NAME $VALUE
+    else
+        echo "==db sset TABLE name must be one of secure,global,system =="
+    fi
+elif [ "$TYPE" == "sget" ];then
+    echo "==================show all databases========================"
+    echo "==================show secure table========================="
+    content query --uri content://settings/secure
+    echo "==================show global table========================="
+    content query --uri content://settings/global
+    echo "==================show system table========================="
+    content query --uri content://settings/system
+elif [ "$TYPE" == "sinit" ];then
+    rm -rf /data/data/com.android.providers.settings
+elif [ "$TYPE" == "net" ];then
+    echo "=============show fiberhome databases netinfo==============="
+    content query --uri content://fhconfig/summary | grep network
+    echo "=============show system databases netinfo==============="
+    content query --uri content://settings/secure | grep -E "option60|ppp|ethernet|ipv6"
+    content query --uri content://settings/global/wifi_on
+    content query --uri content://settings/global/wifiap_on
+    echo "=============show system .prop netinfo==============="
+    getprop | grep dhcp
+    getprop ro.mac
+    getprop ro.serialno
+    getprop ro.deviceid
+elif [ "$TYPE" == "info" ];then
+    echo "=============show fiberhome databases netinfo==============="
+    content query --uri content://settings/secure | grep ntp
+    content query --uri content://settings/secure/screen_saver_time
+    content query --uri content://settings/global/install_non_market_apps
+    content query --uri content://settings/global/device_provisioned
+    content query --uri content://settings/global/bluetooth_on
+    content query --uri content://settings/system/screen_off_timeout
+    content query --uri content://settings/system | grep volume
+elif [ "$TYPE" == "dblog" ];then
+    echo "=============show fiberhome databases dblog==============="
+    version=`getprop ro.build.version.sdk`
+    if [ "$version" -lt 26 ];then
+        content query --uri content://fhlog/fhdblog
+    else
+        db=/data/data/com.fiberhome.providers.log/databases/fhdblog.db
+        echo "select * from fhdblog" | sqlite3 $db
+    fi
+else
+    echo "====================db command wrong========================"
+
+fi

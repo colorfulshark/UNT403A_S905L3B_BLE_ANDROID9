@@ -1,0 +1,6 @@
+import /vendor/etc/init/init.andlink.rc
+
+on property:vendor.sqm.umount=1
+    umount2 /data/local/vixtel/temp
+    setprop vendor.sqm.umount 0
+
